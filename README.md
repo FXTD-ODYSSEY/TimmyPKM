@@ -1,2 +1,6 @@
 # TimmyPKM
-My Second Brain with Tiddy Wiki
+My Second Brain with Tiddly Wiki
+
+## PKM
+
+PKM is Personal Knowledge Management
