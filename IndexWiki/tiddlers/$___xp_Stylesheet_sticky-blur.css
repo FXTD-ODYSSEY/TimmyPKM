@@ -1,0 +1,9 @@
+.tc-tiddler-title {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.tc-editor-toolbar {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+}
