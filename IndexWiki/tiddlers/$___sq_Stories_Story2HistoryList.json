@@ -637,9 +637,23 @@
         "title": "$:/plugins/sq/Stories/changelog"
     },
     {
-        "title": "$:/language/ThemeTweaks/Options/StickyTitles"
+        "title": "changelist-Pinboard"
     },
     {
-        "title": "$:/themes/tiddlywiki/vanilla/options/stickytitles"
+        "title": "changelist-Pinboard"
+    },
+    {
+        "title": "$:/plugins/kookma/pinboard"
+    },
+    {
+        "title": "$:/plugins/kookma/pinboard/styles/corkboard",
+        "fromPageRect": {
+            "top": 579.25,
+            "left": 1041.0625,
+            "width": 355.203125,
+            "right": 1396.265625,
+            "bottom": 598.25,
+            "height": 19
+        }
     }
 ]

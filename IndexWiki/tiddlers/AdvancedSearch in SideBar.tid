@@ -1,0 +1,12 @@
+caption: {{$:/core/images/advanced-search-button}}
+color: #bbb
+created: 20210708123508383
+icon: $:/core/images/advanced-search-button
+modified: 20210708123508383
+tags: 
+title: AdvancedSearch in SideBar
+tmap.id: cdce02cb-906b-4604-9ea2-308f0e3145fe
+
+<div class="tc-advanced-search">
+<$macrocall $name="tabs" tabsList="[all[shadows+tiddlers]tag[$:/tags/AdvancedSearchInSideBar]!has[draft.of]]" default="$:/xp/ui/AdvancedSearch/System" actions="""<$action-setfield $tiddler="$:/state/advancedsearchinsidebar/currentTab" text=<<currentTab>>/>""" explicitState="$:/state/tab--20210602130115732"/>
+</div>

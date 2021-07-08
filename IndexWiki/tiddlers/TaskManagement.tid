@@ -1,0 +1,33 @@
+caption: Task
+created: 20210708123449338
+modified: 20210708123522729
+tags: 
+title: TaskManagement
+tmap.id: a516064c-1d46-4b8e-bbbd-6bc902e1a6a2
+
+<$button tooltip="New task">
+	<$action-sendmessage $message="tm-new-tiddler" title=<<now "Job YYYY/0MM0DD ">> tags="task" priority="normal" status="open"/>
+  {{$:/core/images/new-button}}
+</$button>
+<$button tooltip="Monitor">
+  <$action-navigate $to="Task Monitor"/>
+  {{$:/xp/images/tasks}}
+</$button>
+
+
+!! Outstanding tasks
+
+//Drag the tasks to re-order them//
+
+<<list-tagged-draggable tag:"task" subFilter:"!has[draft.of]!tag[done]" itemTemplate:"TaskManagementDraggableTemplate" emptyMessage:"You don't have any active tasks">>
+
+
+!! Completed tasks
+
+//(Listed in reverse order of completion)//
+
+<$list filter="[!has[draft.of]tag[task]tag[done]sort[created]]">
+<div>
+<$checkbox tag="done"> ~~<$link/>~~</$checkbox>
+</div>
+</$list>

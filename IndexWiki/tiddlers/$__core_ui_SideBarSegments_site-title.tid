@@ -1,0 +1,10 @@
+created: 20210708123908554
+modified: 20210708123909085
+tags: $:/tags/SideBarSegment
+title: $:/core/ui/SideBarSegments/site-title
+
+<h1 class="tc-site-title">
+
+<$transclude tiddler="$:/SiteTitle" mode="inline"/>
+
+</h1>
