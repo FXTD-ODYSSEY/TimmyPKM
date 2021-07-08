@@ -1,0 +1,15 @@
+caption: {{$:/language/Buttons/checkbox/Caption}}
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+description: {{$:/language/Buttons/checkbox/Hint}}
+icon: $:/core/images/checkbox
+shortcuts: ((checkbox))
+tags: $:/tags/EditorToolbar
+title: $:/core/ui/EditorToolbar/checkbox
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="wrap-selection"
+	prefix="""<input type="checkbox" un"""
+	suffix="""checked />
+"""
+/>

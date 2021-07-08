@@ -1,0 +1,6 @@
+title: $:/xp/manageTags/readme
+
+;manageTags
+:Delete or Add tags in view mode
+
+{{$:/xp/manageTags/config}}

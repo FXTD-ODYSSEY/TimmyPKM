@@ -1,0 +1,26 @@
+caption: {{$:/xp/daynight/images/eye-green}} eyecare theme
+description: Switch eyecare theme
+tags: $:/tags/PageControls
+title: $:/xp/daynight/Buttons/switch-eyecare-theme
+
+<$list filter="[[$:/palette]!text{$:/xp/daynight/Database##green-palette}]"><$button set="$:/palette" setTo={{$:/xp/daynight/Database##green-palette}} tooltip="Green theme" aria-label="Green theme" class=<<tv-config-toolbar-class>>>
+<$list filter="[<tv-config-toolbar-icons>prefix[yes]]">
+{{$:/xp/daynight/images/eye-green}}
+</$list>
+<$action-setfield $tiddler="$:/xp/boxs-button/nightBoxs.css" tags=""/>
+<$action-setfield $tiddler="$:/xp/daynight/Stylesheet/NightTheme" tags=""/>
+<$action-setfield $tiddler="$:/xp/boxs-button/greenBoxs.css" tags="$:/tags/Stylesheet"/>
+<$action-setfield $tiddler="$:/xp/daynight/Stylesheet/GreenTheme" tags="$:/tags/Stylesheet"/>
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]">
+<span class="tc-btn-text"><$text text="eyecare theme"/></span>
+</$list>
+</$button></$list><$list filter="[[$:/palette]text{$:/xp/daynight/Database##green-palette}]"><$button set="$:/palette" setTo={{$:/xp/daynight/Database##other-eyecare-palette}} tooltip="Other eyecare theme" aria-label="Other eyecare theme" class=<<tv-config-toolbar-class>>>
+<$list filter="[<tv-config-toolbar-icons>prefix[yes]]">
+{{$:/xp/daynight/images/eye}}
+</$list>
+<$action-setfield $tiddler="$:/xp/boxs-button/greenBoxs.css" tags=""/>
+<$action-setfield $tiddler="$:/xp/daynight/Stylesheet/GreenTheme" tags=""/>
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]">
+<span class="tc-btn-text"><$text text="Other eyecare theme"/></span>
+</$list>
+</$button></$list>

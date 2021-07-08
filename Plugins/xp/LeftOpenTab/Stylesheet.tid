@@ -1,0 +1,106 @@
+scrollbar-display: none
+storyleft-default: 0px
+storyright-default: 770px
+storyriver-padding-left: 42px
+tags: $:/tags/Stylesheet
+title: $:/xp/LeftOpenTab/Stylesheet
+width: 256px
+
+\define sidebarbreakpoint()
+<$text text={{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}/>
+\end
+
+<pre>.leftopentab-content {
+    position: fixed;
+    max-width: {{!!width}};
+    left: 0px;
+    top: 0px;
+    bottom: 0;
+    padding: 56px 14px 28px 10px;
+    background: none;
+    height: 100vh;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: <<sidebarbreakpoint>>) {
+    .leftopentab-content {
+        display: block;
+        background: <<colour page-background>>;
+        max-width: 80vw;
+        max-height: 60vh;
+        <<box-shadow "1px 1px 5px rgba(0, 0, 0, 0.3)">>
+    }
+}
+
+/**  Hide scrollbar (display: none;)  **/
+
+.leftopentab-content::-webkit-scrollbar {
+    background: none;
+    width: 8px;
+    display: {{!!scrollbar-display}};
+}
+
+.leftopentab-content::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    background: <<colour sidebar-muted-foreground>>;
+}
+
+/**  Title style  **/
+
+.leftopentab-title-line,
+.leftopentab-title-semicircle,
+.leftopentab-title-square {
+    padding: 3px 0 0 0;
+    text-align: center;
+    width: 230px;
+    color: <<colour sidebar-tab-foreground>>;
+}
+
+.leftopentab-title-line {
+    padding: 3px 0 1px 0;
+    border-bottom: 1px solid <<colour sidebar-muted-foreground>>;
+}
+
+.leftopentab-title-semicircle {
+    border-radius: 15px 15px 100px 100px;
+    background-color: #eee;
+    backdrop-filter: blur(10px);
+}
+
+.leftopentab-title-square {
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+}
+
+.leftopentab-title-word {
+    padding: 3px 0 0 0;
+    text-align: left;
+    margin-left: 1.1em;
+    color: <<colour sidebar-tab-foreground>>;
+    font-size: 1em;
+}
+
+/**  Horizontal-rule style  **/
+
+.leftopentab-hr-style {
+    max-width: calc({{!!width}} - {{!!storyriver-padding-left}} / 2);
+    margin: 1px 0 4px;
+    border-top: 1px solid <<colour sidebar-muted-foreground>>;
+}
+
+/**  compatible-with-Stories-plugin  **/
+
+.tc-image-bars {
+    padding: 0px;
+    color: <<colour muted-foreground>>;
+    fill: <<colour muted-foreground>>;
+    font-size: 0.9em;
+}
+
+.tc-image-bars img {
+    width: 13.5pt;
+    height: 13.5pt;
+}
+</pre>

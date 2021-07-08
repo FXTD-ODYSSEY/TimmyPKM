@@ -1,0 +1,12 @@
+{
+	"version": "0.0.9",
+	"type": "application/json",
+	"title": "$:/themes/tiddlywiki-xp",
+	"plugin-type": "theme",
+	"plugin-priority": "1",
+	"name": "TiddlyWiki XP",
+	"modified": "20210526123154819",
+	"description": "Simple and flat theme",
+	"dependents": "$:/themes/tiddlywiki/vanilla",
+	"created": "20210220185516625"
+}

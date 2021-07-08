@@ -1,0 +1,13 @@
+{
+	"version": "0.0.3",
+	"type": "application/json",
+	"title": "$:/xp/Diary",
+	"plugin-type": "plugin",
+	"name": "Diary",
+	"modified": "20210604123514021",
+	"list": "readme",
+	"description": "View and manage your diary more easily",
+	"dependents": "$:/plugins/danielo515/encryptTiddler",
+	"created": "20210511065227948",
+	"author": "kl"
+}

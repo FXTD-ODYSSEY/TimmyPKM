@@ -1,0 +1,5 @@
+description: Recently modified
+filter: [!is[system]tag[Journal]has[modified]!sort[modified]limit[14]]
+tags: $:/tags/DiaryCard/Filter
+title: $:/xp/Diary/Filters/RecentJournals
+

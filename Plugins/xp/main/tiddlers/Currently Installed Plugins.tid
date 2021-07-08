@@ -1,0 +1,3 @@
+title: Currently Installed Plugins
+
+<$list filter="[!has[draft.of]plugin-type[plugin]sort[title]]"/>

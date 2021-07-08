@@ -1,0 +1,8 @@
+caption: Utility
+tags: [[Change List]]
+title: changelist-Utility
+tmap.id: a2f45fda-634d-4099-86a9-bd8b83582cf4
+
+!! $:/plugins/kookma/utility
+
+* 取消默认显示版本号：$:/plugins/kookma/utility/styles/tw-version

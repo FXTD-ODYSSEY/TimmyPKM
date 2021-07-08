@@ -1,0 +1,5 @@
+color: #bbb
+icon: $:/xp/images/tasks
+title: Task Monitor
+
+<$macrocall $name=table-dynamic filter="[tag[task]]" fields="tbl-checkbox tbl-expand title description priority status due-date tags" class="w-100" stateTiddler="your-state-tid"/>

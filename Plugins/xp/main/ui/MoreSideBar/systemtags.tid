@@ -1,0 +1,10 @@
+caption: System Tags
+list-after: $:/core/ui/MoreSideBar/Tags
+tags: $:/tags/MoreSideBar XP-settings
+title: $:/xp/ui/MoreSideBar/systemtags
+
+<$list filter="[all[shadows+tiddlers]tags[]is[system]sort[title]]">
+
+<$transclude tiddler="$:/core/ui/TagTemplate"/> <small class="tc-menu-list-count"><$count filter="[all[current]tagging[]]"/></small>
+
+</$list>

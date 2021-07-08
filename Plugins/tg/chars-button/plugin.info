@@ -1,0 +1,16 @@
+{
+	"version": "0.0.7",
+	"type": "application/json",
+	"title": "$:/plugins/tg/chars-button",
+	"source": "http://tongerner.tiddlyspot.com/",
+	"plugin-type": "plugin",
+	"name": "Chars button",
+	"modifier": "TonGerner",
+	"modified": "20191230201740884",
+	"list": "readme",
+	"description": "Chars button",
+	"creator": "TonGerner",
+	"created": "20181106114516621",
+	"core-version": ">=5.1.17",
+	"author": "TonGerner"
+}

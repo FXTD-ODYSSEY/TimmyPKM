@@ -1,0 +1,26 @@
+tags: $:/tags/Stylesheet
+title: $:/plugins/tobibeer/appear/styles
+
+\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline html
+
+<pre>.tc-reveal.appear-block,
+.tc-popup.appear {
+    border-radius: 5px;
+    padding: 1px 1em;
+    <<box-shadow "2px 2px 5px rgba(0,0,0,0.3)">>;
+}
+
+.tc-popup.appear {
+    padding: 0 1em;
+    background: rgba(253, 253, 253, 1);
+    backdrop-filter: blur(10px);
+}
+
+.appear-reveal.appear-inline {
+    margin-left: 5px;
+}
+
+.appear-reveal.appear-inline.appear-once {
+    margin-left: 0;
+}
+</pre>

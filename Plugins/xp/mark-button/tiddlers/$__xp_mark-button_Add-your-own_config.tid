@@ -1,0 +1,23 @@
+title: $:/xp/mark-button/Add-your-own/config
+
+\define dropdown-showAddYourOwn()
+<$select tiddler="$:/xp/mark-button/Add-your-own">
+<option value=""> Hide </option>
+<option value="{{$:/xp/mark-button/Add-your-own/text}}"> Show </option>
+</$select>
+\end
+
+!! Settings
+
+<div style="margin-left: 25px;">
+
+Hide / Show Add-your-own in [[Dropdown Menu|$:/core/ui/EditorToolbar/mark-dropdown]]: <<dropdown-showAddYourOwn>>
+
+You can add new entries by:
+
+* 'Add your own' menu entry
+* Cloning a Mark button e.g. $:/language/Marklets/Blue
+** Adjust title, code and caption
+** Save
+
+</div>

@@ -1,0 +1,26 @@
+caption: {{$:/xp/daynight/images/daytime-mode}} daynight
+description: Switch day/night theme
+tags: $:/tags/PageControls
+title: $:/xp/daynight/Buttons/switch-daynight
+
+<$list filter="[[$:/palette]!text{$:/xp/daynight/Database##night-palette}]"><$button set="$:/palette" setTo={{$:/xp/daynight/Database##night-palette}} tooltip="Night theme" aria-label="Night theme" class=<<tv-config-toolbar-class>>>
+<$list filter="[<tv-config-toolbar-icons>prefix[yes]]">
+{{$:/xp/daynight/images/night-mode}}
+</$list>
+<$action-setfield $tiddler="$:/xp/boxs-button/greenBoxs.css" tags=""/>
+<$action-setfield $tiddler="$:/xp/daynight/Stylesheet/GreenTheme" tags=""/>
+<$action-setfield $tiddler="$:/xp/boxs-button/nightBoxs.css" tags="$:/tags/Stylesheet"/>
+<$action-setfield $tiddler="$:/xp/daynight/Stylesheet/NightTheme" tags="$:/tags/Stylesheet"/>
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]">
+<span class="tc-btn-text"><$text text="daynight"/></span>
+</$list>
+</$button></$list><$list filter="[[$:/palette]text{$:/xp/daynight/Database##night-palette}]"><$button set="$:/palette" setTo={{$:/xp/daynight/Database##day-palette}} tooltip="Day theme" aria-label="Day theme" class=<<tv-config-toolbar-class>>>
+<$list filter="[<tv-config-toolbar-icons>prefix[yes]]">
+{{$:/xp/daynight/images/daytime-mode}}
+</$list>
+<$action-setfield $tiddler="$:/xp/boxs-button/nightBoxs.css" tags=""/>
+<$action-setfield $tiddler="$:/xp/daynight/Stylesheet/NightTheme" tags=""/>
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]">
+<span class="tc-btn-text"><$text text="daynight"/></span>
+</$list>
+</$button></$list>

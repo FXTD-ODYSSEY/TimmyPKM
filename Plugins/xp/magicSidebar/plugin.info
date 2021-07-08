@@ -1,0 +1,10 @@
+{
+	"version": "0.0.7",
+	"type": "application/json",
+	"title": "$:/xp/magicSidebar",
+	"plugin-type": "plugin",
+	"modified": "20210610014959906",
+	"list": "readme",
+	"description": "magicSidebar - Show right sidebar on mouse hover",
+	"created": "20210424152938474"
+}

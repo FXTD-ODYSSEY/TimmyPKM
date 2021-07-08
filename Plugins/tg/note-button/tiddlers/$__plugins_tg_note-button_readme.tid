@@ -1,0 +1,4 @@
+title: $:/plugins/tg/note-button/readme
+
+A button ({{$:/core/images/note}}) for the Editor toolbar that applies 'note' formatting to the selected text<br>
+Assigned shortcut: {{$:/config/shortcuts/note}}

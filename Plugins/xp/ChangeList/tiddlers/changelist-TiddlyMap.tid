@@ -1,0 +1,19 @@
+caption: TiddlyMap
+tags: [[Change List]]
+title: changelist-TiddlyMap
+
+!! $:/plugins/felixhayashi/tiddlymap
+
+取消首次启动时的配置界面：
+
+* $:/plugins/felixhayashi/tiddlymap/js/startup/caretaker <div>
+
+```js
+showWelcomeMessage:false
+```
+</div>
+
+配置 Default 视图的过滤规则，显示标签为 TableOfContents 的条目：
+
+* $:/plugins/felixhayashi/tiddlymap/graph/views/Default/filter/edges
+* $:/plugins/felixhayashi/tiddlymap/graph/views/Default/filter/nodes

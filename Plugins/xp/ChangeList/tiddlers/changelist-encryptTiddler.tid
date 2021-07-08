@@ -1,0 +1,7 @@
+caption: encryptTiddler
+tags: [[Change List]]
+title: changelist-encryptTiddler
+
+!! $:/plugins/danielo515/encryptTiddler
+
+* 【查看工具栏】隐藏按钮时，显示说明文字：$:/plugins/danielo515/encryptTiddler/openPopup

@@ -1,0 +1,5 @@
+color: #5778d8
+icon: $:/core/icon
+title: TiddlyWiki
+
+<<list-links filter:"[tag[TiddlyWiki]]">>

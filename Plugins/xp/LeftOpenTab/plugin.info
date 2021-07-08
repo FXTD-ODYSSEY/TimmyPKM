@@ -1,0 +1,12 @@
+{
+	"version": "0.1.3",
+	"type": "application/json",
+	"title": "$:/xp/LeftOpenTab",
+	"plugin-type": "plugin",
+	"modified": "20210609095706161",
+	"list": "contents readme",
+	"description": "LeftOpenTab - A button to put the open tab to the left",
+	"dependents": "$:/plugins/sq/Stories",
+	"created": "20210218055056916",
+	"author": "kl"
+}

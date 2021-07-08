@@ -1,0 +1,9 @@
+title: $:/xp/daynight/Database
+type: application/json
+
+{
+    "day-palette": "$:/palettes/Vanilla",
+    "green-palette": "$:/xp/daynight/palettes/EyeCareGreen",
+    "night-palette": "$:/xp/daynight/palettes/DarkGreen",
+    "other-eyecare-palette": "$:/palettes/SolarFlare"
+}

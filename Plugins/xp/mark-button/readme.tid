@@ -1,0 +1,10 @@
+title: $:/xp/mark-button/readme
+
+A button ({{$:/core/images/mark}}) for the Editor toolbar that applies coloring or highlighting  to the selected text<br>
+Assigned shortcut: {{$:/config/shortcuts/mark}}
+
+{{$:/xp/mark-button/Add-your-own/config}}
+
+{{$:/xp/mark-button/One-more-thing}}
+
+> 该插件是 [[$:/plugins/tg/mark-button|http://tw5custom.tiddlyspot.com/#%24%3A%2Fplugins%2Ftg%2Fmark-button]] 的修改版。感谢 TonGerner！

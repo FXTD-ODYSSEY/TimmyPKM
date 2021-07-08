@@ -1,0 +1,10 @@
+tags: $:/tags/Stylesheet
+title: $:/xp/manageTags/styles
+
+/* COLOR ACTIVE STATE TOGGLE BUTTON */
+body.tc-body .mt-active-indicator {
+     color: <<colour primary>>;
+}
+body.tc-body .mt-active-indicator svg {
+     fill: <<colour primary>>;
+}

@@ -1,0 +1,18 @@
+caption: {{$:/language/Buttons/details/Caption}}
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+description: {{$:/language/Buttons/details/Hint}}
+icon: $:/core/images/details
+shortcuts: ((details))
+tags: $:/tags/EditorToolbar
+title: $:/core/ui/EditorToolbar/details
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="wrap-selection"
+	prefix="""<$details summary="Details" open="no">
+
+"""
+	suffix="""
+
+</$details>"""
+/>

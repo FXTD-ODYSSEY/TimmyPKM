@@ -1,0 +1,6 @@
+title: $:/xp/Diary/readme
+
+Display the journal list in the sidebar to manage your diary more easily.
+
+; Dependents
+: $:/plugins/danielo515/encryptTiddler

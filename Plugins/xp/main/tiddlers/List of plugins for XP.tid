@@ -1,0 +1,144 @@
+color: #663399
+icon: $:/core/images/plugin-generic-plugin
+list: 插件源 [[Change List]]
+title: List of plugins for XP
+
+<style>
+.twocolumns {
+   display:block;
+   column-count:2;
+   column-gap: 1em;
+   -moz-column-count:2;
+   -moz-column-gap:1em;
+   -webkit-column-count: 2;
+   -webkit-column-gap: 1em;
+}
+</style>
+
+@@.twocolumns
+
+! ''Required'' plugins:
+
+---
+
+//Online Plugin Library//
+
+* $:/config/KookmaPluginLibrary
+* $:/config/wikilabs/PluginLibraryWL/latest
+
+//AND//
+
+* $:/plugins/danielo515/encryptTiddler
+* $:/plugins/danielo515/ContextPlugin
+* $:/plugins/felixhayashi/tiddlymap
+** $:/plugins/felixhayashi/hotzone
+** $:/plugins/felixhayashi/topstoryview
+** $:/plugins/felixhayashi/vis
+* $:/plugins/flibbles/relink ,,@@color:Green;//online//@@,,
+** $:/plugins/flibbles/relink-markdown
+** $:/plugins/flibbles/relink-titles
+* $:/plugins/kookma/commander ,,@@color:Green;//online//@@,,
+* $:/plugins/kookma/favorites ,,@@color:Green;//online//@@,,
+* $:/plugins/kookma/shiraz ,,@@color:Green;//online//@@,,
+* $:/plugins/kookma/todolist ,,@@color:Green;//online//@@,,
+* $:/plugins/kookma/trashbin ,,@@color:Green;//online//@@,,
+* $:/plugins/nico/projectify
+** $:/plugins/nico/projectify-zh-Hans
+** $:/plugins/nico/shields
+* $:/plugins/sq/Stories ,,@@color:Red;//modified//@@,,
+* $:/plugins/telmiger/details
+* $:/plugins/telmiger/EditButtons
+* $:/plugins/telmiger/EditorCounter
+* $:/plugins/tgrosinger/tw5-checklist
+* $:/plugins/tiddlywiki/codemirror
+** $:/plugins/tiddlywiki/codemirror-autocomplete
+** $:/plugins/tiddlywiki/codemirror-closebrackets
+** $:/plugins/tiddlywiki/codemirror-closetag
+** $:/plugins/tiddlywiki/codemirror-mode-css
+** $:/plugins/tiddlywiki/codemirror-mode-markdown
+** $:/plugins/tiddlywiki/codemirror-mode-xml
+** $:/plugins/tiddlywiki/codemirror-search-replace
+* $:/plugins/tiddlywiki/highlight
+* $:/plugins/tiddlywiki/markdown
+* $:/plugins/tobibeer/preview && $:/plugins/tobibeer/appear
+* $:/plugins/wikilabs/link-to-tabs ,,@@color:Green;//online//@@,,
+* $:/plugins/wikilabs/multicol-dropdown ,,@@color:Green;//online//@@,,
+
+//AND//
+
+* $:/xp
+** $:/themes/tiddlywiki-xp
+** $:/xp/modify-default-tiddlers
+** $:/xp/buttonOrder / $:/xp/buttonOrder-server
+** $:/xp/PluginConfiguration
+** $:/xp/ChangeList
+* $:/xp/Diary
+* $:/xp/magicSidebar
+* $:/xp/SplashScreen
+* $:/xp/switchlayout
+* $:/xp/LeftOpenTab
+* $:/xp/daynight
+* $:/xp/boxs-button
+* $:/xp/mark-button
+* $:/xp/CSS3Emoji
+* $:/xp/manageTags
+* $:/xp/details-button
+
+> 此部分为必备插件。
+
+
+<br>
+
+! Optional plugins and themes:
+
+---
+
+* $:/plugins/kl/checkbox-button
+* $:/plugins/kookma/pinboard ,,@@color:Green;//online//@@,,
+* $:/plugins/kookma/utility ,,@@color:Green;//online//@@,,
+* $:/plugins/souk21/commandpalette
+* $:/plugins/tesseract/tekan ,,@@color:Red;//modified//@@,,
+* $:/plugins/tg/chars-button
+* $:/plugins/tg/iframe-button
+* $:/plugins/tg/list-bullet2-button
+* $:/plugins/tg/newline-button
+* $:/plugins/tg/note-button
+* $:/plugins/tg/prettylink-button
+* $:/plugins/tg/timestamp-button
+* $:/plugins/TheDiveO/FontAwesome
+* $:/plugins/tiddlywiki/browser-sniff
+* $:/plugins/tiddlywiki/internals
+* $:/plugins/tiddlywiki/katex
+
+//AND//
+
+* $:/palettes/jd/CoolMint
+* $:/palettes/jd/Neonize
+* $:/palettes/pimgeek ,,@@color:Red;//modified//@@,,
+
+> 此部分为可选插件，根据个人需求安装。
+
+@@
+
+
+<br>
+
+<span class="blue-box">
+
+''online''：表示「第三方插件」可以通过其在线插件库进行升级更新。<br>
+''modified''：表示该插件的内容被「直接修改」过。
+
+* 关于插件来源，请查看 [[插件源]]。
+* 实时查看当前含有的插件：[[Currently Installed Plugins]]。
+* 关于插件更改，请查看 [[Change List]]。
+
+<span class="gray-box">
+
+''下载所有插件''：从 [[Gitee|https://gitee.com/keatonlao/tiddlywiki-xp]] / [[GitHub|https://github.com/keatonlao/tiddlywiki-xp]] 上将 tiddlywiki-xp 仓库克隆下来。
+
+* 单文件版本所有插件 `plugins/PluginforSingleFileVersion.zip`
+* 服务器版本自定义插件库（~MyPluginStore） `version/tiddlywiki-xp_Server.zip`
+
+</span>
+
+</span>

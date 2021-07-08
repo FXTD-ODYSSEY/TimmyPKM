@@ -1,0 +1,11 @@
+caption: {{$:/xp/images/batch-encryption}} batch encryption
+description: Encrypt or decrypt a bunch of tiddlers
+tags: $:/tags/PageControls
+title: $:/xp/ui/Buttons/batchEncryption
+
+<$button to="Batch Encryption" tooltip="Batch Encryption" aria-label="Batch Encryption" class=<<tv-config-toolbar-class>>>
+<$list filter="[<tv-config-toolbar-icons>prefix[yes]]">
+{{$:/xp/images/batch-encryption}}
+</$list>
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]"><span class="tc-btn-text"><$text text="batch encryption"/></span></$list>
+</$button>

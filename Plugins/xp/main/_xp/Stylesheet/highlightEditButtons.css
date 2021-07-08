@@ -1,0 +1,28 @@
+/* Edit buttons as traffic lights */
+
+.tc-tiddler-controls .tc-image-delete-button {
+  stroke: white;
+  fill: #ff2222;
+}
+
+.tc-tiddler-controls .tc-image-trash-alt {
+  stroke: white;
+  fill: #ff6347;
+}
+
+.tc-tiddler-controls .tc-image-cancel-button {
+  stroke: white;
+  fill: #ffdd55;
+}
+
+.tc-tiddler-controls .tc-image-done-button {
+  fill: #094;
+}
+
+.edit-btn-icon.save-open {
+  color: #094;
+}
+
+.edit-btn-icon.save-open:hover {
+  color: #888888;
+}

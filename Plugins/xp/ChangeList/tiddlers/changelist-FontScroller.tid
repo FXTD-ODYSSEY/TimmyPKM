@@ -1,0 +1,11 @@
+caption: Font Scroller
+tags: [[Change List]]
+title: changelist-FontScroller
+
+!! $:/jd/Buttons/font-size
+
+将按钮打包在 $:/xp/PluginConfiguration 里面。（解决问题：将按钮条目拖到 TiddlyWiki on Node.js 时，无法使用）
+
+* 在按钮旁边显示字体大小
+* 最小字体设置为 13px
+* 为提高中文阅读体验，调整 bodylineheight >= 1.35

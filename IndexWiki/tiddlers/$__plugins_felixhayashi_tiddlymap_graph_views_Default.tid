@@ -1,0 +1,8 @@
+config.neighbourhood_focus_newly_traced_node: true
+config.neighbourhood_scope: 100
+config.neighbourhood_trace_clicks: true
+config.physics_mode: false
+created: 20210707153710317
+isview: true
+modified: 20210707154902338
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Default

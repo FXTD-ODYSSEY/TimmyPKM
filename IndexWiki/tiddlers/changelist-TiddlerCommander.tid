@@ -1,0 +1,8 @@
+caption: Tiddler Commander
+tags: [[Change List]]
+title: changelist-TiddlerCommander
+tmap.id: 312b7201-bd4f-45b1-956a-3a2fc2b58381
+
+!! $:/plugins/kookma/commander
+
+* 将面板添加到侧边栏：$:/Commander

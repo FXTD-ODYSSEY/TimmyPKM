@@ -1,0 +1,9 @@
+description: create a checklist
+tags: $:/tags/Actions
+title: $:/core/ui/Actions/new-checklist
+
+\define get-tags() $(textFieldTags)$
+\define get-text() $(textField)$
+<$vars textFieldTags={{$:/config/NewChecklist/Tags}} textField={{$:/config/NewChecklist/Text}}>
+<$action-sendmessage $message="tm-new-tiddler" title=<<now "YYYY/0MM0DD ">> tags=<<get-tags>> text=<<get-text>>/>
+</$vars>

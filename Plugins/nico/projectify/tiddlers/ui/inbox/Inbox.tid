@@ -1,0 +1,26 @@
+caption: {{$:/plugins/nico/projectify/images/inbox}} {{$:/language/projectify/Inbox}}
+created: 20200425193337699
+modified: 20210112182518459
+tags: 
+title: $:/plugins/nico/projectify/ui/inbox/Inbox
+type: text/vnd.tiddlywiki
+
+\define inbox-count()
+  <$vars currentTiddler="Inbox">
+    <span class="py-count">
+      <$count filter=<<py-open-todos>>/>
+    </span>
+  </$vars>
+\end
+
+<h2>{{$:/language/projectify/Inbox}} <<inbox-count>></h2>
+
+{{$:/plugins/nico/projectify/ui/forms/NewInboxTodo}}
+
+<$vars currentTiddler="Inbox">
+  <$macrocall
+    class="py-inbox-input"
+    $name="todo-list"
+    emptyTemplate="$:/plugins/nico/projectify/ui/welcome/EmptyInbox"
+  />
+</$vars>

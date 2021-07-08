@@ -1,0 +1,16 @@
+{
+	"version": "0.0.11",
+	"type": "application/json",
+	"title": "$:/plugins/tg/prettylink-button",
+	"source": "http://tongerner.tiddlyspot.com/",
+	"plugin-type": "plugin",
+	"name": "Pretty link button",
+	"modifier": "TonGerner",
+	"modified": "20191230200309469",
+	"list": "readme",
+	"description": "Pretty link button",
+	"creator": "TonGerner",
+	"created": "20170410194742451",
+	"core-version": ">=5.1.13",
+	"author": "TonGerner"
+}

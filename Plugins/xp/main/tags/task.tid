@@ -1,0 +1,4 @@
+color: #add8e6
+title: task
+
+<<list-links filter:"[tag[task]]">>

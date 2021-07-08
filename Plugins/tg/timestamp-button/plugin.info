@@ -1,0 +1,16 @@
+{
+	"version": "0.0.13",
+	"type": "application/json",
+	"title": "$:/plugins/tg/timestamp-button",
+	"source": "http://tongerner.tiddlyspot.com/",
+	"plugin-type": "plugin",
+	"name": "Timestamp button",
+	"modifier": "TonGerner",
+	"modified": "20191230195515305",
+	"list": "readme",
+	"description": "Timestamp button",
+	"creator": "TonGerner",
+	"created": "20170511203457093",
+	"core-version": ">=5.1.13",
+	"author": "TonGerner"
+}

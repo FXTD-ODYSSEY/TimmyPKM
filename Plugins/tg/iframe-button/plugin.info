@@ -1,0 +1,16 @@
+{
+	"version": "0.0.9",
+	"type": "application/json",
+	"title": "$:/plugins/tg/iframe-button",
+	"source": "http://tongerner.tiddlyspot.com/",
+	"plugin-type": "plugin",
+	"name": "Iframe button",
+	"modifier": "TonGerner",
+	"modified": "20191230200427259",
+	"list": "readme",
+	"description": "Iframe button",
+	"creator": "TonGerner",
+	"created": "20170605134736252",
+	"core-version": ">=5.1.14",
+	"author": "TonGerner"
+}

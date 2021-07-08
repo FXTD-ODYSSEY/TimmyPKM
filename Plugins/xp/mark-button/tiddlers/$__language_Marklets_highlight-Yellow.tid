@@ -1,0 +1,5 @@
+caption: highlight Yellow
+tags: $:/tags/TextEditor/Marklet
+title: $:/language/Marklets/highlight-Yellow
+
+@@background-color:Yellow;

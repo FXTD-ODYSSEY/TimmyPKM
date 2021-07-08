@@ -1,0 +1,5 @@
+caption: Std
+tags: $:/tags/AdvancedSearchInSideBar
+title: $:/xp/ui/AdvancedSearch/Standard
+
+{{$:/core/ui/AdvancedSearch/Standard}}

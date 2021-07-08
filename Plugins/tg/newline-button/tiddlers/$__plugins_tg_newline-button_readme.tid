@@ -1,0 +1,4 @@
+title: $:/plugins/tg/newline-button/readme
+
+A button ({{$:/core/images/newline}}) for the Editor toolbar adds a newline<br>
+Assigned shortcut: {{$:/config/shortcuts/newline}}

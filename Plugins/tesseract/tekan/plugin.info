@@ -1,0 +1,16 @@
+{
+	"version": "0.5.13",
+	"type": "application/json",
+	"title": "$:/plugins/tesseract/tekan",
+	"tags": "Modified",
+	"plugin-type": "plugin",
+	"name": "Tekan",
+	"modifier": "Riz",
+	"modified": "20210417033716113",
+	"list": "readme",
+	"description": "Tekan - Kanban TW",
+	"creator": "Riz",
+	"created": "20170919234019968",
+	"core-version": ">=5.1.14",
+	"author": "Riz"
+}

@@ -1,0 +1,21 @@
+title: $:/xp/PluginConfiguration/readme
+
+These plugins are included:
+
+* [[appear|$:/plugins/tobibeer/appear]]
+* [[CodeMirror|$:/plugins/tiddlywiki/codemirror]]
+* [[Command palette|$:/plugins/souk21/commandpalette]]
+* [[encryptTiddler|$:/plugins/danielo515/encryptTiddler]]
+* [[Favorites|$:/plugins/kookma/favorites]]
+* [[FontAwesome|$:/plugins/TheDiveO/FontAwesome]]
+* [[Font scroller|$:/jd/Buttons/font-size]]
+* [[Link to Tabs|$:/plugins/wikilabs/link-to-tabs]]
+* [[Pinboard|$:/plugins/kookma/pinboard]]
+* [[Pretty link button|$:/plugins/tg/prettylink-button]]
+* [[Projectify|$:/plugins/nico/projectify]]
+* [[Shiraz|$:/plugins/kookma/shiraz]]
+* [[Tiddler Commander|$:/plugins/kookma/commander]]
+* [[TiddlyMap|$:/plugins/felixhayashi/tiddlymap]]
+* [[Todolist|$:/plugins/kookma/todolist]]
+* [[Trashbin|$:/plugins/kookma/trashbin]]
+* [[Utility|$:/plugins/kookma/utility]]

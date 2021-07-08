@@ -1,0 +1,14 @@
+caption: {{$:/language/Buttons/iFrame/Caption}}
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+description: {{$:/language/Buttons/iFrame/Hint}}
+icon: $:/core/images/iframe
+shortcuts: ((iframe))
+tags: $:/tags/EditorToolbar
+title: $:/core/ui/EditorToolbar/iframe
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="wrap-selection"
+	prefix="""<iframe src='"""
+	suffix="""' frameborder="0" width="1024"; height="600"></iframe>"""
+/>

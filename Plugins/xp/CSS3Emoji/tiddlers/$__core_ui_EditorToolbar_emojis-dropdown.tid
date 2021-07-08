@@ -1,0 +1,30 @@
+title: $:/core/ui/EditorToolbar/emojis-dropdown
+
+\define toolbar-button-emojis-inner()
+<$button tag="a">
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="replace-selection"
+	text={{$(snippetTitle)$}}
+/>
+
+<$action-deletetiddler
+	$tiddler=<<dropdown-state>>
+/>
+
+<$view tiddler=<<snippetTitle>> field="caption" mode="inline">
+
+<$view tiddler=<<snippetTitle>> field="title" mode="inline"/>
+
+</$view>
+
+</$button>
+\end
+
+<$list filter="[all[shadows+tiddlers]tag[$:/tags/TextEditor/emojis]!has[draft.of]sort[caption]]" variable="snippetTitle">
+
+<<toolbar-button-emojis-inner>>
+
+</$list>
+

@@ -1,0 +1,11 @@
+title: $:/core/ui/EditorToolbar/boxs-dropdown
+
+\define conditional-button()
+<$transclude tiddler="$:/core/ui/EditTemplate/body/toolbar/button" mode="inline"/>
+\end
+
+<div class="tc-text-editor-toolbar-more" style="width: 190px;">
+<$list filter="[all[shadows+tiddlers]tag[$:/tags/TextEditor/boxs]!has[draft.of]] -[[$:/core/ui/EditorToolbar/boxs]]">
+<<conditional-button>>
+</$list>
+</div>

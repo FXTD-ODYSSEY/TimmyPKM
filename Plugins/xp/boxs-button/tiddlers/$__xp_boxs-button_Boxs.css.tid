@@ -1,0 +1,70 @@
+tags: $:/tags/Stylesheet
+title: $:/xp/boxs-button/Boxs.css
+type: text/css
+
+html body.tc-body .blue-box {
+	display:block;
+	background-color:rgba(135, 206, 250, 0.13);
+	padding:8px 8px 4px 20px;
+	margin-top:5px;
+	margin-bottom:1em;
+	width:95%;
+	color:#000;
+	border-radius: 3px;
+}
+
+html body.tc-body .gray-box {
+	display:block;
+	background-color:rgba(238, 238, 238, 0.8);
+	padding:8px 8px 4px 20px;
+	margin-top:5px;
+	margin-bottom:1em;
+	width:95%;
+	color:#000;
+	border-radius: 3px;
+}
+
+html body.tc-body .green-box {
+	display:block;
+	background-color:rgb(230, 238, 224, 0.8);
+	padding:8px 8px 4px 20px;
+	margin-top:5px;
+	margin-bottom:1em;
+	width:95%;
+	color:#000;
+	border-radius: 3px;
+}
+
+html body.tc-body .purple-box {
+	display:block;
+	background-color:rgba(243, 236, 253, 1);
+	padding:8px 8px 4px 20px;
+	margin-top:5px;
+	margin-bottom:1em;
+	width:95%;
+	color:#000;
+	border-radius: 3px;
+}
+
+html body.tc-body .red-box {
+	display:block;
+	background-color:rgba(253, 236, 234, 0.618);
+	padding:8px 8px 4px 20px;
+	margin-top:5px;
+	margin-bottom:1em;
+	width:95%;
+	color:#000;
+	border-radius: 3px;
+}
+
+
+html body.tc-body .yellow-box {
+	display:block;
+	background-color:rgba(251, 241, 218, 0.618);
+	padding:8px 8px 4px 20px;
+	margin-top:5px;
+	margin-bottom:1em;
+	width:95%;
+	color:#000;
+	border-radius: 3px;
+}

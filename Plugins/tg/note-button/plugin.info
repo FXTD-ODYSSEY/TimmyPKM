@@ -1,0 +1,16 @@
+{
+	"version": "0.0.5",
+	"type": "application/json",
+	"title": "$:/plugins/tg/note-button",
+	"source": "http://tongerner.tiddlyspot.com/",
+	"plugin-type": "plugin",
+	"name": "Note button",
+	"modifier": "TonGerner",
+	"modified": "20191230201251275",
+	"list": "readme",
+	"description": "Note button",
+	"creator": "TonGerner",
+	"created": "20170726080405705",
+	"core-version": ">=5.1.14",
+	"author": "TonGerner"
+}

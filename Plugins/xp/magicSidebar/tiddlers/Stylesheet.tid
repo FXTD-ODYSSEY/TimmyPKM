@@ -1,0 +1,51 @@
+display: inline-block
+height: 520px
+tags: $:/tags/Stylesheet
+title: $:/xp/magicSidebar/Stylesheet
+width: 30px
+
+\define sidebarbreakpoint() <$list filter="[[$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint]!text[]get[text]]" emptyMessage="960px"/>
+\define sidebarwidth() <$list filter="[[$:/themes/tiddlywiki/vanilla/metrics/sidebarwidth]!text[]get[text]]" emptyMessage="300px"/>
+
+<pre><$list filter="[[$:/state/sidebar]get[text]] +[else[yes]match[no]]" variable="ignore">
+
+/**  SHOW SIDEBAR ON HOVER  **/
+
+@media (min-width: <<sidebarbreakpoint>>) {
+    .magic-sidebar {
+        position: fixed;
+        display: {{!!display}};
+        opacity: 0;
+        z-index: 800;
+        top: 0;
+        right: 0;
+        width: {{!!width}};
+        height: {{!!height}};
+        padding: 61px 0 28px 22px;
+        background: <<colour page-background>>;
+        -webkit-transition: width 0ms, height {{$:/config/AnimationDuration}}ms;
+        transition: width 0ms, height {{$:/config/AnimationDuration}}ms;
+    }
+
+    .magic-sidebar:hover {
+        display: {{!!display}};
+        visibility: visible;
+        opacity: 1;
+        width: calc(<<sidebarwidth>> + 50px);
+        height: 100%;
+        padding: 61px 0 28px 22px;
+        margin: 0 0 0 10px;
+        overflow: auto;
+        <<box-shadow "-6px 0 50px 0 rgba(0, 0, 0, 0.2)">>
+    }
+}
+
+/**  HIDE ON PHONE  **/
+
+@media (max-width: <<sidebarbreakpoint>>) {
+    .magic-sidebar, .magic-sidebar:hover {
+        display: none;
+    }
+}
+</$list>
+</pre>

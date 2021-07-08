@@ -1,0 +1,14 @@
+caption: Trashbin
+tags: [[Change List]]
+title: changelist-Trashbin
+tmap.id: d8e7dec2-a606-4310-815e-bc240c2c9523
+
+!! $:/plugins/kookma/trashbin
+
+由于侧边栏固定的项目较多，将文字标题换为图标显示：
+
+* $:/plugins/kookma/trashbin/sidebar-tab
+
+【查看工具栏】删除按钮中的 list-after 排序（用 <<tag $:/tags/ViewToolbar>> 中的 list 字段进行排序）：
+
+* $:/plugins/kookma/trashbin/ui/toolbar-button

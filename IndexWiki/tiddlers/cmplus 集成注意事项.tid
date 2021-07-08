@@ -1,0 +1,33 @@
+created: 20210707165621947
+modified: 20210708015602115
+tags: 
+title: cmplus 集成注意事项
+tmap.id: d7f5b2ee-be25-4d52-a197-3f2961c32c77
+
+cmplus 是 code mirror 自动补全增强功能
+
+类似的插件还有 https://github.com/snowgoon88/TW5-extendedit
+
+只是上面的插件无法和 codemirror 插件并存
+
+xp 主题框架的某些设置会导致 cmplus 的提示窗口无法显示
+
+经过我的调试，我发现下面的选项要改为 false
+
+xp\modify-default-tiddlers\tiddlers\$__themes_tiddlywiki_vanilla_options_stickytitles.tid
+
+<br>
+
+xp\main\_xp\Stylesheet.tid 中的
+
+<br>
+
+`/* commandpalette compatible with Stories */
+.tc-story-river { z-index: 198; }`
+
+<br>
+
+导致遮挡
+
+只要将 `.CodeMirror-hints` 的 z-index 提升即可解决问题
+

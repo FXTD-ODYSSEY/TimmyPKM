@@ -1,0 +1,10 @@
+caption: Shiraz
+tags: [[Change List]]
+title: changelist-Shiraz
+tmap.id: a47523bd-02a5-4b53-81a4-e5ecdcce060b
+
+!! $:/plugins/kookma/shiraz
+
+取消 colorful-sidebar-tab 样式：
+
+* $:/plugins/kookma/shiraz/styles/colorful-sidebar-tab

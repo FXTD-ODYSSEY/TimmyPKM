@@ -1,0 +1,4 @@
+list: $:/core/ui/SideBar/Open TableOfContents $:/plugins/kookma/favorites/sidebar-tab $:/core/ui/SideBar/Recent $:/core/ui/SideBar/Tools $:/core/ui/SideBar/More $:/_xp/Settings ToDoList TaskManagement [[Projectify: Simple project management]] Diary $:/plugins/kookma/trashbin/sidebar-tab $:/plugins/felixhayashi/tiddlymap/hook/editor $:/plugins/felixhayashi/tiddlymap/hook/liveTab $:/Commander [[AdvancedSearch in SideBar]] [[Batch Encryption]]
+title: $:/tags/SideBar
+
+<<list-links filter:"[all[shadows+tiddlers]tag[$:/tags/SideBar]]">>

@@ -1,0 +1,14 @@
+{
+	"version": "0.0.3",
+	"type": "application/json",
+	"title": "$:/xp/manageTags",
+	"source": "http://tw5custom.tiddlyspot.com",
+	"plugin-type": "plugin",
+	"name": "manageTags",
+	"modified": "20210518063931160",
+	"list": "readme license",
+	"description": "Delete or Add tags in view mode",
+	"created": "20210410015717110",
+	"core-version": ">=5.1.17",
+	"author": "TonGerner"
+}

@@ -1,0 +1,13 @@
+caption: {{$:/core/images/new-button}} new main tiddler
+description: Create a main tiddler
+title: $:/core/ui/Buttons/new-maintiddler
+
+\whitespace trim
+<$button actions={{$:/core/ui/Actions/new-maintiddler}} tooltip="Create a main tiddler" aria-label="new main tiddler" class=<<tv-config-toolbar-class>>>
+<$list filter="[<tv-config-toolbar-icons>match[yes]]">
+{{$:/core/images/new-button}}
+</$list>
+<$list filter="[<tv-config-toolbar-text>match[yes]]">
+<span class="tc-btn-text"><$text text="new main tiddler"/></span>
+</$list>
+</$button>

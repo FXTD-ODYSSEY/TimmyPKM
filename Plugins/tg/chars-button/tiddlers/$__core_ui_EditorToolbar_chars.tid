@@ -1,0 +1,9 @@
+caption: {{$:/language/Buttons/Chars/Caption}}
+condition: [<targetTiddler>type[]] [<targetTiddler>get[type]prefix[text/]] +[first[]]
+description: {{$:/language/Buttons/Chars/Hint}}
+dropdown: $:/core/ui/EditorToolbar/chars-dropdown
+icon: $:/core/images/chars
+shortcuts: ((chars))
+tags: $:/tags/EditorToolbar
+title: $:/core/ui/EditorToolbar/chars
+

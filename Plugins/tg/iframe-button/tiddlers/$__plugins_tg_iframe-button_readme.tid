@@ -1,0 +1,4 @@
+title: $:/plugins/tg/iframe-button/readme
+
+A button ({{$:/core/images/iframe}} ) for the Editor toolbar that inserts an iframe<br>
+Assigned shortcut: {{$:/config/shortcuts/iframe}}

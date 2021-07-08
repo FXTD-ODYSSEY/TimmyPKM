@@ -1,0 +1,18 @@
+title: $:/xp/magicSidebar/readme
+
+当侧边栏处于隐藏状态时，您可以将鼠标指针移到右侧热点区以显示侧边栏。
+
+: <$checkbox tiddler="$:/xp/magicSidebar/Stylesheet" field="display" checked="inline-block" unchecked="none" default="inline-block"> [[Turn on magicSidebar|$:/xp/magicSidebar]]</$checkbox>
+
+<div style="margin-left:2em">
+
+设置热区宽度和高度：
+
+|''Width'' |^<$edit-text tiddler="$:/xp/magicSidebar/Stylesheet" field="width" default="" tag="input"/> |
+|''Height'' |^<$edit-text tiddler="$:/xp/magicSidebar/Stylesheet" field="height" default="" tag="input"/> |
+
+</div>
+
+---
+
+See also: [[Whitespace Theme|http://j.d.whitespace.tiddlyspot.com/]]

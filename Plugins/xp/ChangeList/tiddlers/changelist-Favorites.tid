@@ -1,0 +1,9 @@
+caption: Favorites
+tags: [[Change List]]
+title: changelist-Favorites
+
+!! $:/plugins/kookma/favorites
+
+由于侧边栏固定的项目较多，将文字标题换为图标显示：
+
+* $:/plugins/kookma/favorites/sidebar-tab

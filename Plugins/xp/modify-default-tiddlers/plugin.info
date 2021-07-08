@@ -1,0 +1,11 @@
+{
+	"version": "0.0.4",
+	"type": "application/json",
+	"title": "$:/xp/modify-default-tiddlers",
+	"plugin-type": "plugin",
+	"name": "Modify default tiddlers",
+	"modified": "20210517082547769",
+	"description": "Changes to the TiddlyWiki default tiddlers",
+	"created": "20210409015904280",
+	"author": "kl"
+}

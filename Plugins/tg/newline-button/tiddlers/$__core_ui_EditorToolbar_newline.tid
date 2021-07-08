@@ -1,0 +1,13 @@
+caption: {{$:/language/Buttons/Newline/Caption}}
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+description: {{$:/language/Buttons/Newline/Hint}}
+icon: $:/core/images/newline
+shortcuts: ((newline))
+tags: $:/tags/EditorToolbar
+title: $:/core/ui/EditorToolbar/newline
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="replace-selection"
+        text="<br>"
+/>

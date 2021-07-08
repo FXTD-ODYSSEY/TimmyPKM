@@ -1,0 +1,9 @@
+caption: Pretty link button
+tags: [[Change List]]
+title: changelist-prettylink-button
+
+!! $:/plugins/tg/prettylink-button
+
+修改前后缀内容：
+
+* $:/core/ui/EditorToolbar/prettylink

@@ -1,0 +1,25 @@
+caption: Projectify
+tags: [[Change List]]
+title: changelist-Projectify
+tmap.id: 12745be7-3c0c-4459-a361-7a10418ffc9a
+
+!! $:/plugins/nico/projectify
+
+将主面板固定到侧边栏：
+
+* [[Projectify|Projectify: Simple project management]]
+
+
+将下面两项移出侧边栏：
+
+* $:/plugins/nico/projectify/ui/sidebar/Projects
+* $:/plugins/nico/projectify/ui/sidebar/Upcoming
+
+【查看工具栏】删除按钮中的 list-before 排序（用 <<tag $:/tags/ViewToolbar>> 中的 list 字段进行排序）：
+
+* $:/plugins/nico/projectify/ui/buttons/ToggleTodo
+
+
+默认禁用中文语言：
+
+* [[$:/config/Plugins/Disabled/$:/plugins/nico/projectify-zh-Hans]]

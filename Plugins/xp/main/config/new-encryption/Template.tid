@@ -1,0 +1,8 @@
+title: $:/config/new-encryption/Template
+
+\define lingo-base() $:/language/Search/
+\define encryptionFilter() [!is[system]!has[draft.of]tag[Private]!sort[created]]
+
+<!-- 修改上面 encryptionFilter 的内容即可（默认加密 tag 为 Private 的条目） -->
+
+{{$:/config/new-encryption/Text}}

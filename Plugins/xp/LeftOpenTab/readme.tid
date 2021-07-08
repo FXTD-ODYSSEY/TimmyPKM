@@ -1,0 +1,17 @@
+title: $:/xp/LeftOpenTab/readme
+
+!! ~LeftOpenTab 左置打开选项卡
+
+A button ({{$:/xp/LeftOpenTab/Buttons/toggle-open-tab}}) to put the [[Open|$:/core/ui/SideBar/Open]] tab to the left. Click the button again to restore to the default position.
+
+!! Settings
+
+{{$:/xp/LeftOpenTab/settings}}
+
+!! Dependents
+
+* $:/plugins/sq/Stories
+
+!! See also
+
+TWaddle's  [[LeftBar|http://leftbar.tiddlyspot.com/]] plugin

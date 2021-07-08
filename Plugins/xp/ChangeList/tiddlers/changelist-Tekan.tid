@@ -1,0 +1,34 @@
+caption: Tekan
+tags: [[Change List]]
+title: changelist-Tekan
+
+!! $:/plugins/tesseract/tekan (Modified)
+
+!! 修改样式
+
+* 将 $:/Tekan/Substyles 中部分样式，移到 $:/Tekan/Stepping-away-from-TW5-styles 里面。
+* 将 $:/Tekan/Substyles 中下面两个样式的宽度百分比修改为：<div>
+
+```css
+.window-main-col {
+    width: 75%;
+}
+
+.window-sidebar {
+    width: 20%;
+}
+```
+</div>
+
+
+!! 修改按钮
+
+「[[页面工具栏按钮|$:/Tekan/Switch]]」
+
+* 图标修改为 $:/Tekan/images/kanban-button.svg
+* 点击按钮时引用 $:/Tekan/Stepping-away-from-TW5-styles
+
+「[[返回 TW5 按钮|$:/Tekan/NavboardButtons]]」
+
+* 图标修改为 $:/Tekan/images/back-button.svg
+* 点击按钮时取消引用 $:/Tekan/Stepping-away-from-TW5-styles

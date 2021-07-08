@@ -1,0 +1,22 @@
+caption: FontAwesome
+tags: [[Change List]]
+title: changelist-FontAwesome
+tmap.id: 54ff2f5e-432c-4a64-a62d-af9e495be594
+
+\define tv-config-toolbar-text() yes
+\define openCpFontAwesome()
+<$action-setfield $tiddler="$:/state/tab-1749438307" $value="$:/plugins/TheDiveO/FontAwesome/ui/ControlPanel/FontAwesome"/>
+<$action-navigate $to="$:/ControlPanel"/>
+\end
+
+
+!! $:/plugins/TheDiveO/FontAwesome
+
+!! 修改设置
+
+在 <$button actions=<<openCpFontAwesome>>>{{$:/core/images/options-button}} ~FontAwesome</$button> 中，取消勾选 ''decorate system links''、''decorate external links''。
+
+修改文件为：
+
+* $:/config/fa5/decorate-extlinks
+* $:/config/fa5/decorate-syslinks

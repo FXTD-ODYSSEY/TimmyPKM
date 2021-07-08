@@ -1,0 +1,15 @@
+caption: {{$:/plugins/kookma/favorites/image}}
+tags: $:/tags/SideBar
+title: $:/plugins/kookma/favorites/sidebar-tab
+
+\define show-options()
+<$button class="tc-btn-invisible" to="$:/plugins/kookma/favorites/manager">
+{{$:/core/images/options-button}} Manager
+</$button>
+\end
+
+<!-- create the sidebar tab -->
+<div class="kk-favorites">
+ --- &nbsp; <<show-options>> <br>
+<$transclude tiddler="$:/plugins/kookma/favorites/macros/sidebar" field=text/>
+</div>

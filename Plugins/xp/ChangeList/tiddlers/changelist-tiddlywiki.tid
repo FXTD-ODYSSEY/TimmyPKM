@@ -1,0 +1,13 @@
+caption: ~TiddlyWiki
+tags: [[Change List]]
+title: changelist-tiddlywiki
+
+【编辑栏按钮】修改 Quote 默认开启自动换行
+
+* $:/core/ui/EditorToolbar/quote
+
+<span class="gray-box">
+
+更多更改，请参阅 $:/xp/modify-default-tiddlers 中的条目。
+
+</span>

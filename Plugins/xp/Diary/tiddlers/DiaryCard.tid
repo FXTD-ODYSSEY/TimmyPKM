@@ -1,0 +1,71 @@
+journal-tag: Journal Private
+list: Journal
+title: DiaryCard
+
+\define alltagsfilter()  
+<$vars tag1="tag[" tag2="]" lb="[" rb="tag[Journal]!sort[created]]">
+<$set filter="[list[]addprefix<tag1>addsuffix<tag2>]+[join[]addprefix<lb>addsuffix<rb>]" name="alltags" select=0>
+<$text text=<<alltags>>/>
+</$set>
+</$vars>
+\end
+
+\define saverssidebaritem(item:"Journal")
+<$checkbox tiddler=<<qualify $:/temp/$item$>> field="status" checked="selected" checkactions=<<checkactions "$item$">> uncheckactions=<<uncheckactions "$item$">> default="closed"> $item$</$checkbox><br/>
+\end
+
+\define saverssidebaritemlist(fieldname:"diary")
+<$list filter="[enlist{!!$fieldname$}]" variable="currentItem">
+<$macrocall $name="saverssidebaritem" item=<<currentItem>>/>
+</$list>
+\end
+
+\define uncheckactions(item:"Journal")
+<$action-listops  $subfilter="-[[$item$]]"/>
+\end
+
+\define checkactions(item:"Journal")
+<$action-listops $subfilter="[[$item$]]"/>
+\end
+
+<style>
+html body.tc-body .diarycard-search-box {
+    display: block;
+    margin: 0 auto;
+    padding: 4px 8px 16px 36px;
+    margin-bottom: 1.8em;
+    border: 1px solid <<colour tiddler-editor-border>>;
+    border-radius: 12px;
+    background: <<colour page-background>>
+}
+</style>
+
+<span class="diarycard-search-box">
+
+{{$:/xp/Diary/Filter}}
+
+</span>
+
+!! View journals in card view:
+
+<div class="tc-wrapper-flex">
+<div class="tc-saving-sidebar">
+  <div class="tc-saving-sidebar-category">
+      <div class="tc-saving-sidebar-category-title">Tag</div>
+     <div class="tc-saving-sidebar-category-item">
+                <$checkbox tiddler=<<qualify $:/temp/Star>> field="status" checked="selected" checkactions=<<checkactions "Star">> uncheckactions=<<uncheckactions "Star">> default="closed"> Starred</$checkbox><br/>
+                <<saverssidebaritemlist "journal-tag">>
+      </div>
+   </div>
+</div>
+
+<!-- Page content -->
+<div class="content">
+<$wikify text=<<alltagsfilter>> name="alltagsfilterwikified">
+<$list filter=<<alltagsfilterwikified>>>
+{{||$:/xp/Diary/card-template}}
+</$list>
+</$wikify>
+
+</div>
+</div>

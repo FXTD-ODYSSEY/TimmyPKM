@@ -1,0 +1,10 @@
+caption: Multi Column Tag Dropdown
+tags: [[Change List]]
+title: changelist-multicol-dropdown
+
+!! $:/plugins/wikilabs/multicol-dropdown
+
+使用 [[Daynight|$:/xp/daynight]] 更换主题时，变更 tc-block-dropdown 的背景颜色：
+
+* $:/xp/daynight/Stylesheet/GreenTheme
+* $:/xp/daynight/Stylesheet/NightTheme

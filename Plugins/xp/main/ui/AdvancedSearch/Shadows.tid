@@ -1,0 +1,6 @@
+caption: Shadows
+first-search-filter: [all[shadows]search<userInput>sort[title]limit[250]] -[[$:/temp/advancedsearch]] -[[$:/temp/advancedsearch/input]]
+tags: $:/tags/AdvancedSearchInSideBar
+title: $:/xp/ui/AdvancedSearch/Shadows
+
+{{$:/core/ui/AdvancedSearch/Shadows}}

@@ -1,0 +1,16 @@
+caption: {{$:/core/images/list-bullet}} new checklist
+description: Create a checklist
+title: $:/core/ui/Buttons/new-checklist
+
+\whitespace trim
+\define checklistButton()
+<$button actions={{$:/core/ui/Actions/new-checklist}} tooltip="Create a checklist" aria-label="new checklist" class=<<tv-config-toolbar-class>>>
+<$list filter="[<tv-config-toolbar-icons>match[yes]]">
+{{$:/core/images/list-bullet}}
+</$list>
+<$list filter="[<tv-config-toolbar-text>match[yes]]">
+<span class="tc-btn-text"><$text text="new checklist"/></span>
+</$list>
+</$button>
+\end
+<<checklistButton>>

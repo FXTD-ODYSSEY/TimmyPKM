@@ -1,0 +1,5 @@
+color: #5778d8
+icon: $:/core/images/star-filled
+title: Star
+
+<<list-links filter:"[tag[Star]]">>

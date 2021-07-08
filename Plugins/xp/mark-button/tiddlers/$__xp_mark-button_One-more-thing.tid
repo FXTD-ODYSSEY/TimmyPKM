@@ -1,0 +1,11 @@
+title: $:/xp/mark-button/One-more-thing
+
+!! One More Thing
+
+<div style="margin-left: 25px;">
+
+在 [[color.css|$:/xp/mark-button/color.css]] 中定义了颜色的样式，可快速标记「标题」和「列表」的颜色（不支持 Markdown 格式），同时文本更加易于阅读。
+
+参见 [[范例|$:/xp/mark-button/color/example]]。
+
+</div>

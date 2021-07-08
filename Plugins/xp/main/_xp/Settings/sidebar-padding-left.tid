@@ -1,0 +1,5 @@
+sidebar-padding-left: 22px
+tags: XP-settings
+title: $:/_xp/Settings/sidebar-padding-left
+
+{{!!sidebar-padding-left}}

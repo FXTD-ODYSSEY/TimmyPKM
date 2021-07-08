@@ -1,0 +1,8 @@
+caption: Tabs
+tags: $:/tags/TextEditor/Snippet
+title: $:/language/Snippets/Tabs
+
+<<tabs "firstTab
+
+"
+"firstTab" "$:/state/tab1">>

@@ -1,0 +1,4 @@
+description: All encrypted tiddlers
+filter: [has[encrypted]]
+tags: $:/tags/encryptionFilter
+title: $:/xp/Filters/encrypted-tiddlers

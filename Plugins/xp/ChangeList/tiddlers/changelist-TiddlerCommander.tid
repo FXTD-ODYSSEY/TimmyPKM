@@ -1,0 +1,7 @@
+caption: Tiddler Commander
+tags: [[Change List]]
+title: changelist-TiddlerCommander
+
+!! $:/plugins/kookma/commander
+
+* 将面板添加到侧边栏：$:/Commander

@@ -1,0 +1,8 @@
+caption: {{$:/xp/images/batch-encryption}} new encryption
+description: Create an encryption panel
+title: $:/xp/ui/Buttons/new-encryption
+
+\whitespace trim
+<$button actions={{$:/xp/ui/Actions/new-encryption}} tooltip="Create an encryption panel" aria-label="new encryption">
+{{$:/xp/images/batch-encryption}}
+</$button>

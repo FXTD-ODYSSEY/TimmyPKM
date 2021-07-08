@@ -1,0 +1,8 @@
+caption: Tabs (vertical)
+tags: $:/tags/TextEditor/Snippet
+title: $:/language/Snippets/VerticalTabs
+
+<<tabs "firstTab
+
+"
+"firstTab" "$:/state/tab1" "tc-vertical">>

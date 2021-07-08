@@ -1,0 +1,6 @@
+caption: highlight White on red
+description: 红底白字
+tags: $:/tags/TextEditor/Marklet
+title: $:/language/Marklets/White-on-red
+
+@@color:White;background-color:Red;

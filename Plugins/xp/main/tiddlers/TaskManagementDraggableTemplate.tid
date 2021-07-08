@@ -1,0 +1,3 @@
+title: TaskManagementDraggableTemplate
+
+<$checkbox tag="done"> <$link/></$checkbox>

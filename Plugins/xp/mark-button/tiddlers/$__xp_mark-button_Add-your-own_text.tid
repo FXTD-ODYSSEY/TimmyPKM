@@ -1,0 +1,24 @@
+title: $:/xp/mark-button/Add-your-own/text
+
+----
+
+<$button tag="a">
+
+<$action-sendmessage
+	$message="tm-new-tiddler"
+	tags="$:/tags/TextEditor/Marklet"
+	caption={{$:/language/Buttons/Mark/New/Title}}
+	text={{$:/language/Buttons/Mark/New/Text}}
+/>
+
+<$action-deletetiddler
+	$tiddler=<<dropdown-state>>
+/>
+
+<em>
+
+<$text text={{$:/language/Buttons/Mark/Caption/New}}/>
+
+</em>
+
+</$button>

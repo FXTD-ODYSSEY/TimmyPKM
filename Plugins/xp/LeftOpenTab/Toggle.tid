@@ -1,0 +1,15 @@
+tags: $:/tags/PageTemplate
+title: $:/xp/LeftOpenTab/Toggle
+
+\define leftopentab-content()
+<div class="leftopentab-content">
+
+{{$:/xp/LeftOpenTab/Menu}}
+
+</div>
+\end
+
+
+<$list filter="[title[$:/xp/LeftOpenTab/temp]is[tiddler]]" >
+	<<leftopentab-content>>
+</$list>

@@ -1,0 +1,10 @@
+{
+	"version": "0.0.2",
+	"type": "application/json",
+	"title": "$:/xp/CSS3Emoji",
+	"plugin-type": "plugin",
+	"name": "CSS3 Emoji",
+	"modified": "20210518063029341",
+	"description": "CSS3 Emoji - Input a CSS3 Emoji",
+	"created": "20210410045035022"
+}

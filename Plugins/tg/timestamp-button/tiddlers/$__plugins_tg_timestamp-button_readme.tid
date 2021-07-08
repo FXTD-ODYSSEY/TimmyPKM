@@ -1,0 +1,7 @@
+title: $:/plugins/tg/timestamp-button/readme
+
+A button ({{$:/core/images/timestamp}}) for the Editor toolbar that inserts a timestamp.<br>Adapt the date/time format - `<<now [format]>>` in $:/core/ui/EditorToolbar/timestamp - to your liking.<br>
+Assigned shortcut: {{$:/config/shortcuts/timestamp}}
+
+
+

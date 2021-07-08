@@ -1,0 +1,5 @@
+color: #00cc33
+icon: $:/core/images/done-button
+title: done
+
+<<list-links filter:"[tag[done]]">>

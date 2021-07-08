@@ -1,0 +1,16 @@
+{
+	"version": "0.0.7",
+	"type": "application/json",
+	"title": "$:/plugins/tg/list-bullet2-button",
+	"source": "http://tongerner.tiddlyspot.com/",
+	"plugin-type": "plugin",
+	"name": "2nd level bulleted list button",
+	"modifier": "TonGerner",
+	"modified": "20191230201500576",
+	"list": "readme",
+	"description": "2nd level bulleted list button",
+	"creator": "TonGerner",
+	"created": "20181104160047093",
+	"core-version": ">=5.1.17",
+	"author": "TonGerner"
+}

@@ -1,0 +1,11 @@
+{
+	"version": "0.0.7",
+	"type": "application/json",
+	"title": "$:/xp/ChangeList",
+	"plugin-type": "plugin",
+	"name": "Change List",
+	"modified": "20210608124431256",
+	"description": "TiddlyWiki XP Change List",
+	"created": "20210414150535369",
+	"author": "kl"
+}

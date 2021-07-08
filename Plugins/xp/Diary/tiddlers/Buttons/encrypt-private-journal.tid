@@ -1,0 +1,17 @@
+caption: {{$:/xp/Diary/images/private}} encrypt private journal
+description: Encrypt private journal
+title: $:/xp/Diary/Buttons/encrypt-private-journal
+
+\whitespace trim
+\define encryptprivatejournalButton()
+<$button tooltip="Encrypt private Journals" aria-label="encrypt private Journals" class=<<tv-config-toolbar-class>>>
+<$action-navigate $to="encrypt private Journals"/>
+<$list filter="[<tv-config-toolbar-icons>match[yes]]">
+{{$:/xp/Diary/images/private}}
+</$list>
+<$list filter="[<tv-config-toolbar-text>match[yes]]">
+<span class="tc-btn-text"><$text text="encrypt private Journals"/></span>
+</$list>
+</$button>
+\end
+<<encryptprivatejournalButton>>

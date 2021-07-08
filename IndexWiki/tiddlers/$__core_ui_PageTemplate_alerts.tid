@@ -1,0 +1,10 @@
+created: 20210707144737741
+modified: 20210707160204800
+tags: $:/tags/PageTemplate
+title: $:/core/ui/PageTemplate/alerts
+
+<div class="tc-alerts">
+
+<$list filter="[all[shadows+tiddlers]tag[$:/tags/Alert]!has[draft.of]]" template="$:/core/ui/AlertTemplate" storyview="pop"/>
+
+</div>

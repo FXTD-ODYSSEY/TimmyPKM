@@ -1,0 +1,30 @@
+caption: Switch ~SplashScreen
+tags: $:/tags/ControlPanel/Appearance
+title: $:/xp/SplashScreen/config
+
+\define dropdown-splashscreen()
+<$select tiddler="$:/SplashScreen">
+<option value="{{$:/xp/SplashScreen/layouts/bubble}}">Bubble</option>
+<option value="{{$:/xp/SplashScreen/layouts/circle}}">Circle</option>
+<option value="{{$:/xp/SplashScreen/layouts/clock}}">Clock</option>
+<option value="{{$:/xp/SplashScreen/layouts/default}}">Default</option>
+<option value="{{$:/xp/SplashScreen/layouts/doublecircle}}">DoubleCircle</option>
+<option value="{{$:/xp/SplashScreen/layouts/earth}}">Earth</option>
+<option value="{{$:/xp/SplashScreen/layouts/loading}}">Loading</option>
+<option value="{{$:/xp/SplashScreen/layouts/onedot}}">OneDot</option>
+<option value="{{$:/xp/SplashScreen/layouts/simple}}">Simple</option>
+<option value="{{$:/xp/SplashScreen/layouts/wave}}">Wave</option>
+</$select>
+\end
+
+!! Settings
+
+<div style="margin-left: 25px;">
+
+<$checkbox tiddler="$:/SplashScreen" tag="$:/tags/RawMarkupWikified/TopBody">
+Change splashscreen: <<dropdown-splashscreen>>
+</$checkbox>
+
+</div>
+
+> See also: $:/SplashScreen

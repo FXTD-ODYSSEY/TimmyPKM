@@ -1,0 +1,101 @@
+caption: XP
+tags: $:/tags/SideBar XP-settings
+title: $:/_xp/Settings
+
+\define lingo-base() $:/language/ThemeTweaks/
+
+\define DefaultMoreSidebarTab-dropdown()
+<$select tiddler="$:/config/DefaultMoreSidebarTab">
+<option value="$:/core/ui/MoreSideBar/Recent">Recent</option>
+<option value="$:/core/ui/MoreSideBar/Tags">Tags</option>
+<option value="$:/core/ui/MoreSideBar/Plugins">Plugins</option>
+</$select>
+\end
+
+\define dropdown-color()
+<$select tiddler="$:/_xp/Settings/dropdown-color">
+<option value="#9932CC">DarkOrchid</option>
+<option value="#00CED1">DarkTurquoise</option>
+<option value="#4caf50">Green</option>
+<option value="#B0C4DE">LightSteelBlue</option>
+<option value="#DA70D6">Orchid</option>
+<option value="#cc0000">Red</option>
+<option value="#C0C0C0">Silver</option>
+<option value="#FF6347">Tomato</option>
+<option value="#00a9c7">XP</option>
+</$select>
+\end
+
+!! Layout tweaks
+
+|<$link to="$:/themes/tiddlywiki/vanilla/metrics/sidebarwidth">Sidebar width</$link> |^<$edit-text tiddler="$:/themes/tiddlywiki/vanilla/metrics/sidebarwidth" default="350px" tag="input"/> |
+|<$link to="$:/_xp/Settings/sidebar-padding-left">Sidebar padding-left</$link> |^<$edit-text tiddler="$:/_xp/Settings/sidebar-padding-left" field="sidebar-padding-left" default="42px" tag="input"/> |
+|<$link to="$:/_xp/Settings/sidebar-padding-top">Sidebar padding-top</$link> |^<$edit-text tiddler="$:/_xp/Settings/sidebar-padding-top" default="71px" tag="input"/> |
+|<$link to="$:/themes/tiddlywiki/vanilla/metrics/storytop">Story top</$link>|^<$edit-text tiddler="$:/themes/tiddlywiki/vanilla/metrics/storytop" default="0px" tag="input"/> |
+|<$link to="$:/config/DefaultMoreSidebarTab">~DefaultMoreSidebarTab</$link> |<<DefaultMoreSidebarTab-dropdown>> |
+
+<$checkbox tiddler="$:/themes/tiddlywiki/vanilla/options/stickytitles" field="text" checked="yes" unchecked="no" default="yes">
+ [[Sticky titles|$:/themes/tiddlywiki/vanilla/options/stickytitles]] ({{$:/themes/tiddlywiki/vanilla/options/stickytitles}})
+</$checkbox><br>
+<div style="padding:1px 4px 1px 16px; border-radius:4px; font-size:0.9em; line-height:1.35em;">
+<$checkbox tiddler="$:/_xp/Stylesheet/sticky" tag="$:/tags/Stylesheet">
+ [[Sticky editor-toolbar|$:/_xp/Stylesheet/sticky]]
+</$checkbox><br>
+<$checkbox tiddler="$:/_xp/Stylesheet/sticky-blur" tag="$:/tags/Stylesheet">
+ [[Fuzzy background|$:/_xp/Stylesheet/sticky-blur]]
+</$checkbox>
+</div>
+<$checkbox tiddler="$:/_xp/Stylesheet/box-shadow" tag="$:/tags/Stylesheet">
+ [[Show box-shadow|$:/_xp/Stylesheet/box-shadow]]
+</$checkbox><br>
+<$checkbox tiddler="$:/xp/button2top/style" field="display" checked="block" unchecked="none">
+ [[Show back to top button|$:/xp/button2top/style]]
+</$checkbox><br>
+<$checkbox tiddler="$:/xp/magicSidebar/Stylesheet" field="display" checked="inline-block" unchecked="none" default="inline-block">
+ [[Turn on magicSidebar|$:/xp/magicSidebar]]
+</$checkbox>
+
+!! ~SideBar
+
+|<$checkbox tiddler="$:/core/ui/SideBarSegments/site-title" tag="$:/tags/SideBarSegment"/> [[title|$:/core/ui/SideBarSegments/site-title]] |<$checkbox tiddler="$:/core/ui/SideBarSegments/site-subtitle" tag="$:/tags/SideBarSegment"/> [[subtitle|$:/core/ui/SideBarSegments/site-subtitle]] |<$checkbox tiddler="$:/core/ui/SideBarSegments/search" tag="$:/tags/SideBarSegment"/> [[search|$:/core/ui/SideBarSegments/search]] |
+
+<$checkbox tiddler="$:/_xp/Stylesheet/recent/dates-bold" tag="$:/tags/Stylesheet">
+ [[Bold dates in Recent tab|$:/core/ui/SideBar/Recent]]
+</$checkbox><br>
+<$checkbox tiddler="$:/_xp/Stylesheet/hidetoolsdescription" tag="$:/tags/Stylesheet">
+ [[Hide description in Tools tab|$:/core/ui/SideBar/Tools]]
+</$checkbox><br>
+<$checkbox tiddler="$:/jd/Buttons/font-size" tag="$:/tags/PageControls">
+ [[Show font scroller button|$:/jd/Buttons/font-size]]
+</$checkbox><br>
+<$checkbox tiddler="$:/xp/ui/MoreSideBar/systemtags" tag="$:/tags/MoreSideBar">
+ [[Show system tags in MoreSideBar|$:/core/ui/SideBar/More]]
+</$checkbox><br>
+<$checkbox tiddler="$:/core/ui/ControlPanel/Toolbars" tag="$:/tags/SideBar">
+ [[Show Toolbars in SideBar|$:/core/ui/ControlPanel/Toolbars]]
+</$checkbox>
+
+|<$checkbox tiddler="$:/Commander" tag="$:/tags/SideBar"/> Cmder |<$checkbox tiddler="AdvancedSearch in SideBar" tag="$:/tags/SideBar"/> <<.icon $:/core/images/advanced-search-button>> |<$checkbox tiddler="Batch Encryption" tag="$:/tags/SideBar"/> <<.icon $:/xp/images/batch-encryption>> |[[More...|$:/_xp/Settings/manage-SidebarTab]] |
+
+!! Tiddler
+
+|<$link to="$:/_xp/Stylesheet">border-radius</$link>|^<$edit-text tiddler="$:/_xp/Stylesheet" field="tiddler-border-radius" default="2px" tag="input"/> |
+|<$link to="$:/_xp/Stylesheet">~TitlebarFontSize</$link>|^<$edit-text tiddler="$:/_xp/Stylesheet" field="tiddler-titlebar-size" default="2.35em" tag="input"/> |
+|<$link to="$:/_xp/Stylesheet">Button Height</$link>|^<$edit-text tiddler="$:/_xp/Stylesheet" field="tiddler-button-height" default="0.75em" tag="input"/> |
+
+<$checkbox tiddler="$:/_xp/Stylesheet/highlightEditButtons" tag="$:/tags/Stylesheet">
+ [[Edit buttons as traffic lights|$:/_xp/Stylesheet/highlightEditButtons]]
+</$checkbox><br>
+<$checkbox tiddler="$:/_xp/Stylesheet/highlightButtons" tag="$:/tags/Stylesheet">
+ [[Highlight the edit and close buttons|$:/_xp/Stylesheet/highlightButtons]]
+</$checkbox><br>
+<$checkbox tiddler="$:/_xp/Stylesheet/TiddlyMap" tag="$:/tags/Stylesheet">
+ [[Show tiddlymap hzone-focus|$:/_xp/Stylesheet/TiddlyMap]]
+</$checkbox><br>
+<$checkbox tiddler="$:/_xp/Stylesheet/dropdown-color" tag="$:/tags/Stylesheet">
+ [[dropdown-color|$:/_xp/Stylesheet/dropdown-color]]: <$link to="$:/_xp/Settings/dropdown-color"> </$link><<dropdown-color>>
+</$checkbox><br>
+
+<div style="padding: 4px 16px;">
+Also set up [[LinkToBehaviour|$:/core/ui/ControlPanel/Settings/LinkToBehaviour]]
+</div>

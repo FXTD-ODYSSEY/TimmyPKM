@@ -1,0 +1,6 @@
+title: $:/xp/CSS3Emoji/readme
+
+A button ({{$:/core/images/emojis}}) for inserting emojis.<br>
+Assigned shortcut: {{$:/config/shortcuts/emojis}}
+
+{{CSS3 Emoji}}

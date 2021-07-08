@@ -1,0 +1,5 @@
+description: Filter by date (e.g. 20210507)
+filter: [!is[system]tag[Journal]!sort[created]regexp:created[^2021]]
+tags: $:/tags/DiaryCard/Filter
+title: $:/xp/Diary/Filters/FilterByDate
+

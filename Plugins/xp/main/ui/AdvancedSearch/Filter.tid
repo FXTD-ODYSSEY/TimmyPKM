@@ -1,0 +1,5 @@
+caption: Filter
+tags: $:/tags/AdvancedSearchInSideBar
+title: $:/xp/ui/AdvancedSearch/Filter
+
+{{$:/core/ui/AdvancedSearch/Filter}}

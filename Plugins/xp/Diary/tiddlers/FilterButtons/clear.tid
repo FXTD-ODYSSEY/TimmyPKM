@@ -1,0 +1,9 @@
+tags: $:/tags/DiaryCard/FilterButton
+title: $:/xp/Diary/Filter/FilterButtons/clear
+
+<$reveal state="$:/temp/advancedsearch" type="nomatch" text="">
+<$button class="tc-btn-invisible">
+<<cancel-search-actions>>
+{{$:/core/images/close-button}}
+</$button>
+</$reveal>

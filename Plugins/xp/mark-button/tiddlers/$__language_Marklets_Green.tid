@@ -1,0 +1,5 @@
+caption: color Green
+tags: $:/tags/TextEditor/Marklet
+title: $:/language/Marklets/Green
+
+@@color:Green;

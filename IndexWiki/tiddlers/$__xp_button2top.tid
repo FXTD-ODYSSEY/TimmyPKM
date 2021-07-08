@@ -1,0 +1,18 @@
+created: 20210707144737741
+modified: 20210707160204800
+source: http://tw5custom.tiddlyspot.com/#%24%3A%2Fplugins%2Ftg%2Flayout
+tags: $:/tags/PageTemplate
+title: $:/xp/button2top
+
+\whitespace trim
+
+<div class="top-btn">
+<$button tooltip="Top of story river" aria-label="Top of story river" class="tc-btn-invisible" style="outline: none;">
+<$list filter="[<tv-config-toolbar-icons>match[yes]]">
+{{$:/xp/button2top/images/top}}
+</$list>
+<$list variable='Target' filter='[list[$:/StoryList]first[]]'>
+<$action-navigate $to=<<Target>>/>
+</$list>
+</$button>
+</div>

@@ -1,0 +1,17 @@
+caption: {{$:/language/Buttons/Note/Caption}}
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+description: {{$:/language/Buttons/Note/Hint}}
+icon: $:/core/images/note
+shortcuts: ((note))
+tags: $:/tags/EditorToolbar
+title: $:/core/ui/EditorToolbar/note
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="wrap-selection"
+	prefix="""<<<
+''Note:''<br>"""
+	suffix="""
+<<<
+"""
+/>

@@ -1,0 +1,15 @@
+caption: Pinboard
+tags: [[Change List]]
+title: changelist-Pinboard
+tmap.id: bec88a78-d08c-434f-9bb8-d13b6169ac40
+
+!! $:/plugins/kookma/pinboard
+
+* 去除了 corkboard 的边框：$:/plugins/kookma/pinboard/styles/corkboard
+
+```css
+/* add the border*/
+.cork-board {
+ border: 0px solid white;
+}
+```

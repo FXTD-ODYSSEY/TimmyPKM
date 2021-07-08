@@ -1,0 +1,12 @@
+{
+	"version": "0.0.3",
+	"type": "application/json",
+	"title": "$:/xp/details-button",
+	"plugin-type": "plugin",
+	"name": "Details button",
+	"modified": "20210518085109536",
+	"list": "readme",
+	"description": "Details button - add a HTML5 <details> element",
+	"dependents": "$:/plugins/telmiger/details",
+	"created": "20200723035831810"
+}

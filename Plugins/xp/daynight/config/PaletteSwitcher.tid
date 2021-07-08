@@ -1,0 +1,12 @@
+caption: Palette switcher
+title: $:/xp/daynight/Config/PaletteSwitcher
+
+!!! ''Palette switcher'' <<tag "$:/tags/Palette">>
+
+<$list filter="day-palette night-palette green-palette other-eyecare-palette" variable="index" >
+
+<<index>>:
+
+<$edit-text tiddler="$:/xp/daynight/Database" index=<<index>> tag="input"/>
+
+</$list>

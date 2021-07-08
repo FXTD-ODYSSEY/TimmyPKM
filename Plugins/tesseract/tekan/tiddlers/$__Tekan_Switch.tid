@@ -1,0 +1,16 @@
+description: A simple kanban client
+tags: $:/Tekan $:/tags/PageControls
+title: $:/Tekan/Switch
+
+<$button tooltip="Kanban" aria-label="Kanban" class=<<tv-config-toolbar-class>>>
+<$list filter="[<tv-config-toolbar-icons>prefix[yes]]">
+{{$:/Tekan/images/kanban-button.svg}}
+</$list>
+<$action-setfield $tiddler="$:/Tekan/Stepping-away-from-TW5-styles" tags="$:/tags/Stylesheet"/>
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]"><span class="tc-btn-text"><$text text="tekan"/></span></$list>
+<$list filter="[all[shadows+tiddlers]tag[$:/tags/PageTemplate]!has[draft.of]]">
+<$action-setfield tags="TwelloMode"/>
+</$list>
+<$action-setfield $tiddler="$:/Tekan/Main" tags="$:/tags/PageTemplate"/>
+<$action-listops $tiddler="$:/Tekan/Substyles" $tags="$:/tags/Stylesheet"/>
+</$button>

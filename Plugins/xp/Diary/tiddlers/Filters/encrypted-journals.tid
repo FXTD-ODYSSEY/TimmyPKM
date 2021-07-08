@@ -1,0 +1,5 @@
+description: Encrypted
+filter: [!is[system]tag[Journal]has[encrypted]!sort[created]]
+tags: $:/tags/DiaryCard/Filter
+title: $:/xp/Diary/Filters/encrypted-journals
+

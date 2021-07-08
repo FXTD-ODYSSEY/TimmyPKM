@@ -1,0 +1,9 @@
+caption: Shiraz
+tags: [[Change List]]
+title: changelist-Shiraz
+
+!! $:/plugins/kookma/shiraz
+
+取消 colorful-sidebar-tab 样式：
+
+* $:/plugins/kookma/shiraz/styles/colorful-sidebar-tab

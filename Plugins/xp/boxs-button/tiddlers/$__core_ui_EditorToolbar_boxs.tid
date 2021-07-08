@@ -1,0 +1,9 @@
+caption: {{$:/language/Buttons/boxs/Caption}}
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+description: {{$:/language/Buttons/boxs/Hint}}
+dropdown: $:/core/ui/EditorToolbar/boxs-dropdown
+icon: $:/core/images/boxs
+shortcuts: ((boxs))
+tags: $:/tags/EditorToolbar
+title: $:/core/ui/EditorToolbar/boxs
+

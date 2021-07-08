@@ -1,0 +1,14 @@
+caption: Pinboard
+tags: [[Change List]]
+title: changelist-Pinboard
+
+!! $:/plugins/kookma/pinboard
+
+* 去除了 corkboard 的边框：$:/plugins/kookma/pinboard/styles/corkboard
+
+```css
+/* add the border*/
+.cork-board {
+ border: 0px solid white;
+}
+```

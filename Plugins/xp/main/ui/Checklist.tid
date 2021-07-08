@@ -1,0 +1,10 @@
+caption: CHECKLIST
+color: #c7ecf8
+tags: TableOfContents
+title: Checklist
+
+<small><i class="tc-muted">Only the first tab can be edited directly here!</i></small>
+
+<$list filter="[tag[Checklist]!sort[created]limit[1]]">
+  <$macrocall $name="tabs" tabsList="[tag[Checklist]!sort[created]]" default={{!!title}} class="tc-vertical" template="MacroTabsTemplate" />
+</$list>

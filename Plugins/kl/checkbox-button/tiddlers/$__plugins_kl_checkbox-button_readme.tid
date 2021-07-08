@@ -1,0 +1,4 @@
+title: $:/plugins/kl/checkbox-button/readme
+
+A button ({{$:/core/images/checkbox}}) for the Editor toolbar adds a HTML `checkbox`.  <br>
+Assigned shortcut: {{$:/config/shortcuts/checkbox}}

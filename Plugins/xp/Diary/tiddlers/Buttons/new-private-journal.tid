@@ -1,0 +1,17 @@
+caption: {{$:/xp/Diary/images/newprivate}} New private journal
+description: New private journal
+title: $:/xp/Diary/Buttons/new-private-journal
+
+\whitespace trim
+\define privatejournalButton()
+<$button tooltip="Create a private journal" aria-label="new private journal" class=<<tv-config-toolbar-class>>>
+<$action-sendmessage $message="tm-new-tiddler" title=<<now "YYYY/0MM0DD ">> tags="Journal Private" class="journal" color="#5e36bf" text=""/>
+<$list filter="[<tv-config-toolbar-icons>match[yes]]">
+{{$:/xp/Diary/images/newprivate}}
+</$list>
+<$list filter="[<tv-config-toolbar-text>match[yes]]">
+<span class="tc-btn-text"><$text text="new private journal"/></span>
+</$list>
+</$button>
+\end
+<<privatejournalButton>>

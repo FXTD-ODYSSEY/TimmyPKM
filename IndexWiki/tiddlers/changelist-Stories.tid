@@ -1,0 +1,92 @@
+caption: Stories
+tags: [[Change List]]
+title: changelist-Stories
+tmap.id: c4a7e400-b150-4c8d-9446-3f6c55fc85fb
+
+!! $:/plugins/sq/Stories (Modified)
+
+修改「hide right column」按钮：
+
+* $:/_sq/Stories/Templates/StoryToggleMenu
+
+修改页面工具栏按钮：
+
+* $:/_sq/Stories/Templates/StoryTogglePageControl
+
+修改图标：
+
+* $:/_sq/Stories/icons/bars.svg
+* $:/_sq/Stories/icons/bars-empty.svg <div>
+
+```svg
+<g stroke="#888">
+```
+</div>
+
+修改下划线样式：
+
+* $:/core/ui/SideBar/Open <div>
+
+```html
+<div class="leftopentab-hr-style"> </div>
+```
+</div>
+
+修改 Stories.css：
+
+* $:/_sq/Stories/Stories.css <div>
+
+修改滚动条的宽度：
+
+```css
+.sq-story-rivertwo-scrollable::-webkit-scrollbar { width: 7px; }
+```
+
+取消对侧边栏的变动：
+
+```css
+/**
+.tc-sidebar-scrollable {
+	width: calc({{$:/themes/tiddlywiki/vanilla/metrics/sidebarwidth}} - 14px);
+	padding-left: 28px;
+}
+**/
+```
+</div>
+
+修改设置中 openLinkDivert 的默认值为 bottom：
+
+* $:/plugins/sq/Stories/settings <div>
+
+```json
+<$select tiddler=\"$:/_sq/Stories/config/openLinkDivert\" default=\"bottom\">
+```
+</div>
+
+
+禁用首次导入插件时在第二栏显示的提示：
+
+* 删除 $:/_sq/Stories/Story2StoryList 的 list 字段。
+
+
+【查看工具栏】添加说明，使隐藏按钮时显示说明文字：
+
+* $:/_sq/Stories/divertTiddlerMacro <div>
+
+```css
+		<span class="sq-button-divert-right sq-button-divert">{{$:/_sq/Stories/icons/divert-right.svg}}
+			<$list filter="[<tv-config-toolbar-text>match[yes]]">
+				<span class="tc-btn-text">
+					<$text text="divert right"/>
+				</span>
+			</$list>
+		</span>
+		<span class="sq-button-divert-left sq-button-divert">{{$:/_sq/Stories/icons/divert-left.svg}}
+			<$list filter="[<tv-config-toolbar-text>match[yes]]">
+				<span class="tc-btn-text">
+					<$text text="divert left"/>
+				</span>
+			</$list>
+		</span>
+```
+</div>

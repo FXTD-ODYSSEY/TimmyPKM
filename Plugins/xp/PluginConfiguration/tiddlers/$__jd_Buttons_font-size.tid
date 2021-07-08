@@ -1,0 +1,25 @@
+caption: Font scroller
+description: Font scroller
+list: 40px 34px 30px 24px 20px 18px 17px 16px 15px 14px 13px
+title: $:/jd/Buttons/font-size
+type: application/x-tiddler
+
+<$wikify name="fontUp" text="""
+<$list filter="[{$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize}previous[$:/jd/Buttons/font-size]]" emptyMessage="40px"/>
+""">
+<$wikify name="fontDown" text="""
+<$list filter="[{$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize}next[$:/jd/Buttons/font-size]]" emptyMessage="13px"/>
+""">
+<$button class="tc-btn-invisible" tooltip="Decrease font size">
+<$action-setfield $tiddler="$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize" text=<<fontDown>>/>
+<$action-setfield $tiddler="$:/themes/tiddlywiki/vanilla/metrics/bodylineheight" text="1.35"/>
+<font color="#aaaaaa">&#8722;</font>
+</$button>{{$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize}}
+
+<$button class="tc-btn-invisible" tooltip="Increase font size">
+<$action-setfield $tiddler="$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize" text=<<fontUp>>/>
+<$action-setfield $tiddler="$:/themes/tiddlywiki/vanilla/metrics/bodylineheight" text="1.35"/>
+<font color="#aaaaaa">&#43;</font>
+</$button>
+</$wikify>
+</$wikify>

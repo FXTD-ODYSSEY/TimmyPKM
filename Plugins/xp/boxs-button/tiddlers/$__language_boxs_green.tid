@@ -1,0 +1,16 @@
+caption: green
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+tags: $:/tags/TextEditor/boxs
+title: $:/language/boxs/green
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="wrap-selection"
+	prefix="""<span class="green-box">
+
+"""
+	suffix="
+
+</span>"
+/>
+{{!!caption}}

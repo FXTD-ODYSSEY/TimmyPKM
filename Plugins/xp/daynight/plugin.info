@@ -1,0 +1,12 @@
+{
+	"version": "0.1.9",
+	"type": "application/json",
+	"title": "$:/xp/daynight",
+	"plugin-type": "plugin",
+	"modified": "20210608131947219",
+	"list": "readme Config/PaletteSwitcher",
+	"description": "Switch theme",
+	"dependents": "$:/themes/tiddlywiki/vanilla",
+	"created": "20210409145728327",
+	"author": "kl"
+}

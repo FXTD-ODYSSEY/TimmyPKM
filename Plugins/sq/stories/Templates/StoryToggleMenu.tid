@@ -1,0 +1,14 @@
+title: $:/_sq/Stories/Templates/StoryToggleMenu
+
+<div class="tc-sidebar-lists">
+
+<div class="sq-twostoriesonly">
+<$reveal state="$:/config/_sq/Stories/story2" type="nomatch" text="no" default="no">
+<$button set="$:/config/_sq/Stories/story2" setTo="no" tooltip="Hide right column" aria-label="" class="tc-btn-invisible tc-btn-mini"><span class="tc-image-bars">{{$:/_sq/Stories/icons/bars-empty.svg}}</span> hide right column</$button>
+</$reveal>
+</div>
+<$reveal state="$:/config/_sq/Stories/story2" type="match" text="no" default="no">
+<$button set="$:/config/_sq/Stories/story2" setTo="yes" tooltip="Show right column" aria-label="" class="tc-btn-invisible tc-btn-mini tc-btn-storytwotoggle"><span class="tc-image-bars">{{$:/_sq/Stories/icons/bars.svg}}</span> show right column</$button>
+</$reveal>
+
+</div>

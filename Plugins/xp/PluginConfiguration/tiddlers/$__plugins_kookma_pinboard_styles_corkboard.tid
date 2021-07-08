@@ -1,0 +1,12 @@
+tags: $:/tags/Stylesheet
+title: $:/plugins/kookma/pinboard/styles/corkboard
+type: text/css
+
+/*Style the cork board*/
+
+/*Hide tiddler header*/
+.cork-board .tc-subtitle {display:none;}
+.cork-board .tc-tiddler-title {visibility:hidden;}
+.cork-board:hover .tc-tiddler-title {
+ visibility:visible;
+}

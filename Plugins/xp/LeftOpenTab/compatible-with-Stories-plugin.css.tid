@@ -1,0 +1,79 @@
+title: $:/xp/LeftOpenTab/compatible-with-Stories-plugin.css
+
+\define sidebarbreakpoint()
+<$text text={{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}/>
+\end
+
+\define sidebarwidth()
+<$text text={{$:/themes/tiddlywiki/vanilla/metrics/sidebarwidth}}/>
+\end
+
+\define leftopentabwidth()
+<$text text={{$:/xp/LeftOpenTab/Stylesheet!!width}}/>
+\end
+
+\define storyriverpaddingleft()
+<$text text={{$:/xp/LeftOpenTab/Stylesheet!!storyriver-padding-left}}/>
+\end
+
+<pre>/** FOR STORIES PLUGIN
+ *  https://giffmex.org/stroll/empty.html#%24%3A%2Fplugins%2Fsq%2FStories
+ *  this stylesheet will apply with the existence of the plugin
+ */
+
+<$list filter="[[$:/plugins/sq/Stories]is[tiddler]]" variable="chk">
+@media (min-width: <<sidebarbreakpoint>>) {
+    .tc-story-river {
+        transition: width 250ms, padding 250ms;
+    <$reveal state="$:/config/_sq/Stories/story2" type="nomatch" text="no" default="no">
+        <$list filter="[list[$:/_sq/Stories/Story2StoryList]limit[1]]">
+            <$reveal state="$:/state/sidebar" type="match" text="yes" default="yes">
+        width: calc(50% - <<sidebarwidth>> / 2 - <<leftopentabwidth>> / 2 + 22px) !important;
+        left: <<storyriverpaddingleft>>;
+            </$reveal>
+            <$reveal state="$:/state/sidebar" type="match" text="no" default="yes">
+        width: calc(50% - <<leftopentabwidth>> / 2 + 10px) !important;
+        left: <<storyriverpaddingleft>>;
+            </$reveal>
+        </$list>
+    </$reveal>
+    }
+
+    <$reveal state="$:/config/_sq/Stories/story2" type="nomatch" text="no" default="no">
+    .tc-story-river.tc-storytwo-river {
+        height: 0 !important;
+        width: 0 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .sq-story-rivertwo-scrollable {
+        top: 0;
+        width: calc(100% - <<sidebarwidth>> - <<leftopentabwidth>> - <<storyriverpaddingleft>>);
+        transition: width 250ms, padding 250ms, right 250ms;
+    <$list filter="[[$:/StoryList]field:list[]]">
+        left: calc(<<leftopentabwidth>> + <<storyriverpaddingleft>>) !important;
+    </$list>
+    <$list filter="[list[$:/StoryList]limit[1]]">
+        left: unset !important;
+            <$reveal state="$:/state/sidebar" type="match" text="yes" default="yes">
+        width: calc(50% - <<leftopentabwidth>> / 2 - <<leftopentabwidth>> / 2 - <<storyriverpaddingleft>> / 2 + 0px) !important;
+        padding: 1em 0 42px 0;
+        margin-left: -16px;
+            </$reveal>
+            <$reveal state="$:/state/sidebar" type="match" text="no" default="yes">
+        width:  calc(50% - <<leftopentabwidth>> / 2 - <<storyriverpaddingleft>> / 2 + 10px) !important;
+        padding: 1em 0 42px 0;
+        right: 12px !important;
+            </$reveal>
+    </$list>
+    }
+    </$reveal>
+
+    .tc-tiddler-frame {
+        width: 100% !important;
+    }
+}
+</$list>
+
+</pre>

@@ -1,0 +1,12 @@
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+description: Insert a Span Class
+icon: $:/.giffmex/images/blue</>
+tags: $:/tags/EditorToolbar
+title: $:/.giffmex/EditorToolbar/Wrap/SpanClass
+
+<$action-sendmessage
+    $message="tm-edit-text-operation"
+    $param="wrap-selection"
+    prefix="""<span class="">"""
+    suffix="""</span>"""
+/>

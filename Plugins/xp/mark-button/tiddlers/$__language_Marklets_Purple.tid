@@ -1,0 +1,5 @@
+caption: color Purple
+tags: $:/tags/TextEditor/Marklet
+title: $:/language/Marklets/Purple
+
+@@color:Purple;

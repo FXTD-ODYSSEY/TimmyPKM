@@ -1,0 +1,27 @@
+caption: Link to Tabs
+tags: [[Change List]]
+title: changelist-link-to-tabs
+tmap.id: 304b0679-f490-4231-917e-eceb1a2b0511
+
+!! $:/plugins/wikilabs/link-to-tabs
+
+解决问题：水平标签页选中 tab 出现下划线
+
+* $:/plugins/wikilabs/link-to-tabs/styles
+* 将其中对应样式修改为：
+
+```css
+.wltc-link-to-tab {
+  display: {{$:/plugins/wikilabs/link-to-tabs/config!!show-all-links}};
+  position: relative;
+  top: -0.6em;
+  left: -0.8em;
+  opacity: {{$:/plugins/wikilabs/link-to-tabs/config!!initial-opacity}};
+  margin-right: -1em;
+}
+
+.wltc-link-to-tab svg{
+  width: 0.97em;
+  height: 0.97em;
+}
+```

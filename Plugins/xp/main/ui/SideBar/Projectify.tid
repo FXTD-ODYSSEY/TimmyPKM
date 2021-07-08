@@ -1,0 +1,5 @@
+caption: Projectify
+tags: $:/tags/SideBar
+title: Projectify: Simple project management
+
+{{$:/plugins/nico/projectify/ui/dashboard/Dashboard}}

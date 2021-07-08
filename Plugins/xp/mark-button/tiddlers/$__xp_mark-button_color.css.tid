@@ -1,0 +1,37 @@
+tags: $:/tags/Stylesheet
+title: $:/xp/mark-button/color.css
+type: text/css
+
+/*
+ * 快速标记「标题」和「列表」的颜色
+ */
+
+.red,
+.r {
+    color: red;
+}
+
+.green,
+.g {
+    color: green;
+}
+
+.blue,
+.b {
+    color: blue;
+}
+
+.orange,
+.o {
+    color: orange;
+}
+
+.purple,
+.p {
+    color: purple;
+}
+
+.violet,
+.v {
+    color: violet;
+}

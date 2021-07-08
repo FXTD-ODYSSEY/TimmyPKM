@@ -1,0 +1,12 @@
+{
+	"version": "0.0.6",
+	"type": "application/json",
+	"title": "$:/xp/PluginConfiguration",
+	"plugin-type": "plugin",
+	"name": "PluginConfiguration",
+	"modified": "20210603052040453",
+	"list": "readme",
+	"description": "Includes configuration changes for the plugins",
+	"created": "20210410192413385",
+	"author": "kl"
+}

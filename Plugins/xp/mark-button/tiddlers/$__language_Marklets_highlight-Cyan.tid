@@ -1,0 +1,5 @@
+caption: highlight Cyan
+tags: $:/tags/TextEditor/Marklet
+title: $:/language/Marklets/highlight-Cyan
+
+@@background-color:Cyan;

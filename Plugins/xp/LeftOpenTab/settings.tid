@@ -1,0 +1,19 @@
+caption: ~LeftOpenTab Settings
+title: $:/xp/LeftOpenTab/settings
+
+\define dropdown-leftopentab-title()
+<$select tiddler="$:/xp/LeftOpenTab/Menu" field="leftopentab-title-class">
+<option value="leftopentab-title-line">Line</option>
+<option value="leftopentab-title-semicircle">Semi Circle</option>
+<option value="leftopentab-title-square">Square</option>
+<option value="leftopentab-title-word">Word</option>
+</$select>
+\end
+
+| ''Width'' for ~LeftOpenTab|^<$edit-text tiddler="$:/xp/LeftOpenTab/Stylesheet" field="width" size=6/> <$button set="$:/xp/LeftOpenTab/Stylesheet!!width" setTo="256px" tooltip="Reset to default" aria-label="Reset to default"> Reset </$button>|
+| ''Style'' for ~LeftOpenTab|^<<dropdown-leftopentab-title>> |
+| Show scrollbar|<$checkbox tiddler="$:/xp/LeftOpenTab/Stylesheet" field="scrollbar-display" checked="inherit" unchecked="none" default="none"/> {{$:/xp/LeftOpenTab/Stylesheet!!scrollbar-display}} |
+| Set [[storyleft default value|$:/themes/tiddlywiki/vanilla/metrics/storyleft]]|^<$edit-text tiddler="$:/xp/LeftOpenTab/Stylesheet" field="storyleft-default" size=6/> |
+| Set [[storyright default value |$:/themes/tiddlywiki/vanilla/metrics/storyright]]|^<$edit-text tiddler="$:/xp/LeftOpenTab/Stylesheet" field="storyright-default" size=6/> |
+
+> //<small>When you change the width, you need to update [[compatible-with-Stories-plugin.css|$:/xp/LeftOpenTab/compatible-with-Stories-plugin.css]] at the same time!</small>//

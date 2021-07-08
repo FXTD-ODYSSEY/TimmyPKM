@@ -1,0 +1,4 @@
+color: #91d1d3
+title: Journal
+
+<<list-links filter:"[tag[Journal]]">>

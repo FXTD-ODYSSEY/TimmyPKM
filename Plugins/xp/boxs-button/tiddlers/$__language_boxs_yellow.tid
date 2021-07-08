@@ -1,0 +1,16 @@
+caption: yellow
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+tags: $:/tags/TextEditor/boxs
+title: $:/language/boxs/yellow
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="wrap-selection"
+	prefix="""<span class="yellow-box">
+
+"""
+	suffix="
+
+</span>"
+/>
+{{!!caption}}

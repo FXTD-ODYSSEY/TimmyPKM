@@ -1,0 +1,9 @@
+title: $:/xp/buttonOrder-server/readme
+
+Adjust the display order of the buttons, comprising:
+
+* <<tag $:/tags/ViewToolbar>>
+* <<tag $:/tags/EditToolbar>>
+* <<tag $:/tags/EditorToolbar>>
+* <<tag $:/tags/PageControls>>
+* <<tag $:/tags/SideBar>>

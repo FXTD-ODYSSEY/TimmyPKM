@@ -1,0 +1,188 @@
+created: 20210707155916477
+modified: 20210707161836324
+tags: $:/tags/Stylesheet
+title: $:/xp/daynight/Stylesheet/GreenTheme
+
+<pre>/*************************************************
+ *  TIDDLYWIKI
+ **************************************************/
+
+.tc-tiddler-frame {
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    <<box-shadow "-1px -1px 5px rgba(0, 0, 0, 0.05),1px 1px 5px rgba(0, 0, 0, 0.1)">>
+}
+
+.tc-sidebar-header { text-shadow: none; }
+
+select {
+    color: <<colour foreground>>;
+    background-color: #d1ddcb;
+    outline: none;
+}
+
+select:focus { box-shadow: 0 0 2px 0.2px <<colour primary>>; }
+
+
+/* Horizontal Rule */
+
+hr {
+    height: 0;
+    border: none;
+    border-top: 1px solid #9ca793 !important;
+}
+
+
+/* Dropdowns */
+
+.tc-block-dropdown{
+    background-color: #d4dece;
+}
+
+
+/* Highlight */
+
+.hljs {
+    color: #3b302e;
+    background: <<colour pre-background>>;
+}
+
+
+/* Styling Inputs */
+
+input { outline: none; }
+
+input:focus { box-shadow: 0 0 2px 0.13px <<colour primary>>; }
+
+textarea, input, input:not([type]), input[type="email" i], input[type="number" i], input[type="password" i], input[type="tel" i], input[type="url" i], input[type="text" i], input[type=text], input[type=search], input[type=""] {
+    color: #333333;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background: rgba(255, 255, 255, 0.25) !important;
+}
+
+input[type="email" i], input[type="number" i], input[type="password" i], input[type="tel" i], input[type="url" i] {
+    border: 1px solid rgb(118, 118, 118);
+    height: 1.6em;
+}
+
+.tc-edit-tags { border: none !important; }
+
+
+/* Styling Buttons */
+
+.tc-btn-standard {
+    color: #e0e0e0;
+    background-color: <<colour background>>;
+}
+
+button {
+    border: 1px solid <<colour button-border>>;
+    border-radius: 2px;
+    padding: 2px 7px;
+}
+
+button:hover { background: #b7c2ae; }
+button.tc-btn-invisible:hover,
+button.tc-btn-mini:hover,
+.tc-tiddler-controls button:hover,
+.tc-topbar button:hover,
+.tc-page-controls button:hover,
+.tc-search button:hover { background: none; }
+.tc-editor-toolbar button:hover { background-color: <<colour tiddler-controls-foreground-selected>>; }
+.tc-drop-down button:hover { background: <<colour primary>>; }
+
+/* Sidebar tab buttons */
+
+<$list filter="[[$:/themes/tiddlywiki/vanilla/options/sidebarlayout]get[text]] +[else[fluid-fixed]!match[fixed-fluid]]" variable="ignore">
+.tc-sidebar-lists .tc-tab-buttons button:hover {
+    background: none;
+    color: <<colour primary>>;
+    fill: <<colour primary>>;
+}
+
+.tc-sidebar-lists .tc-tab-buttons button.tc-tab-selected {
+    color: <<colour primary>>;
+    fill: <<colour primary>>;
+    background: none;
+    border: none;
+    border-bottom: solid 1px rgba(0, 128, 128, 0.5);
+}
+</$list>
+
+<$list filter="[[$:/themes/tiddlywiki/vanilla/options/sidebarlayout]get[text]] +[else[fixed-fluid]!match[fluid-fixed]]" variable="ignore">
+.tc-sidebar-lists .tc-tab-buttons button.tc-tab-selected {
+    font-weight: bold;
+    color: <<colour primary>>;
+    fill: <<colour primary>>;
+}
+</$list>
+
+/* Sidebar more tab buttons */
+
+.tc-more-sidebar .tc-tab-buttons.tc-vertical > button {
+    border-right: 1px solid <<colour tab-background>>;
+}
+
+
+/* Open tab tiddlylink */
+
+.tc-sidebar-tab-open.sq-sidebar-open a.tc-tiddlylink,
+.tc-sidebar-lists a.tc-tiddlylink {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+/*************************************************
+ *  PLUGINS
+ **************************************************/
+
+/* LeftOpenTab
+** $:/xp/LeftOpenTab
+*/
+
+.leftopentab-title-semicircle,
+.leftopentab-title-square {
+	background-color: rgba(191, 206, 181, 0.6) !important;
+}
+
+
+/* Appear > Preview
+** $:/plugins/tobibeer/appear/styles
+*/
+
+.tc-popup.appear {
+    background: rgba(193, 207, 182, 0.83) !important;
+    backdrop-filter: blur(10px);
+}
+
+
+/* Projectify
+** $:/plugins/nico/projectify/styles/stylesheet
+*/
+
+.py-btn {
+    border: 1px solid rgba(0, 0, 0, 0.3) !important;
+}
+
+
+/* $:/xp/Diary/card-template
+** $:/_tw5.com-styles
+*/
+
+.tc-card {
+	box-shadow: 0 8px 17px -8px #777;
+	background-color: <<colour code-background>>;
+}
+
+.tc-card:hover {
+	box-shadow: 0 5px 15px rgba(0, 128, 128, 0.3);
+}
+
+.tc-card:hover .tc-card-title {
+	color: <<colour primary>>;
+}
+
+.tc-card a {
+	color: <<colour foreground>>;
+}
+</pre>

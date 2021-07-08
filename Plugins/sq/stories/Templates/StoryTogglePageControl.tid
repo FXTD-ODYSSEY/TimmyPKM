@@ -1,0 +1,18 @@
+caption: {{$:/_sq/Stories/icons/bars.svg}} Show right column
+description: Show right column for second story
+tags: $:/tags/PageControls
+title: $:/_sq/Stories/Templates/StoryTogglePageControl
+
+<span class="sq-twostoriesonly"><$reveal state="$:/config/_sq/Stories/story2" type="nomatch" text="no" default="no"><$button set="$:/config/_sq/Stories/story2" setTo="no" tooltip="Hide right column" aria-label="" class=<<tv-config-toolbar-class>>>
+<$list filter="[<tv-config-toolbar-icons>match[yes]]">
+{{$:/_sq/Stories/icons/bars-empty.svg}}
+</$list>
+<$list filter="[<tv-config-toolbar-text>match[yes]]">
+<span class="tc-btn-text"><$text text="hide right column"/></span>
+</$list></$button></$reveal></span><$reveal state="$:/config/_sq/Stories/story2" type="match" text="no" default="no"><$button set="$:/config/_sq/Stories/story2" setTo="yes" tooltip="Show right column" aria-label="" class=<<tv-config-toolbar-class>>>
+<$list filter="[<tv-config-toolbar-icons>match[yes]]">
+{{$:/_sq/Stories/icons/bars-128.svg}}
+</$list>
+<$list filter="[<tv-config-toolbar-text>match[yes]]">
+<span class="tc-btn-text"><$text text="show right column"/></span>
+</$list></$button></$reveal>

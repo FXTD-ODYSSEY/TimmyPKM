@@ -1,0 +1,5 @@
+caption: {{$:/plugins/kookma/trashbin/images/recycle}}
+tags: $:/tags/SideBar
+title: $:/plugins/kookma/trashbin/sidebar-tab
+
+{{$:/plugins/kookma/trashbin/ui/sidebar}}

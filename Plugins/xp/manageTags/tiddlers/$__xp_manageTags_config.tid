@@ -1,0 +1,14 @@
+title: $:/xp/manageTags/config
+
+!! Settings
+
+<div style="margin-left: 25px;">
+
+<$checkbox tiddler="$:/xp/manageTags/button" tag="$:/tags/ViewToolbar">
+ [[Show in ViewToolbar|$:/xp/manageTags/button]]
+</$checkbox><br>
+<$checkbox tiddler="$:/xp/manageTags/button" tag="$:/tags/PageControls">
+ [[Show in sidebar's page control toolbar|$:/xp/manageTags/button]]
+</$checkbox>
+
+</div>

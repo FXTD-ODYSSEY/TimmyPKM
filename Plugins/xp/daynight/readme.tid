@@ -1,0 +1,7 @@
+title: $:/xp/daynight/readme
+
+;Daynight
+:快速切换亮色 {{$:/xp/daynight/images/daytime-mode}} 和 暗色 {{$:/xp/daynight/images/night-mode}} 主题。（可在 Config/~PaletteSwitcher 中手动设置调色板）
+:快速切换护眼 {{$:/xp/daynight/images/eye-green}} 主题。
+
+> 该插件由 [[Mono theme|http://j.d.mono.tiddlyspot.com/]] 修改而成。

@@ -1,0 +1,4 @@
+color: #5e36bf
+title: Private
+
+<<list-links filter:"[tag[Private]]">>

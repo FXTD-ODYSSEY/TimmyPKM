@@ -1,0 +1,25 @@
+display: block
+tags: $:/tags/Stylesheet
+title: $:/xp/button2top/style
+
+<pre>/* BUTTON TO TOP */
+.top-btn {
+    display: {{!!display}};
+    position: fixed;
+    bottom: 12px;
+    right: 0;
+    padding: 8px;
+    background-color: transparent;
+    z-index: 600;
+}
+
+.top-image-button {
+    color: #999;
+    fill: #999;
+}
+
+.top-image-button:hover {
+    color: <<colour primary>>;
+    fill: <<colour primary>>;
+}
+</pre>

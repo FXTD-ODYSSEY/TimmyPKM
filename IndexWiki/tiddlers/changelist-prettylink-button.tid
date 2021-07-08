@@ -1,0 +1,10 @@
+caption: Pretty link button
+tags: [[Change List]]
+title: changelist-prettylink-button
+tmap.id: fa932c54-d2b7-4382-8244-52b666e8e806
+
+!! $:/plugins/tg/prettylink-button
+
+修改前后缀内容：
+
+* $:/core/ui/EditorToolbar/prettylink

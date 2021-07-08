@@ -1,0 +1,9 @@
+description: Create an encryption panel
+tags: $:/tags/Actions
+title: $:/xp/ui/Actions/new-encryption
+
+\define get-tags() $(textFieldTags)$
+\define get-text() $(gettextField)$
+<$vars textFieldTags={{$:/config/new-encryption/Tags}} gettextField={{$:/config/new-encryption/Template}}>
+<$action-sendmessage $message="tm-new-tiddler" caption="{{$:/core/images/locked-padlock}} encrypt private tiddlers" color="#bbb" description="encrypt private tiddlers" icon="$:/core/images/locked-padlock" tags=<<get-tags>> text=<<get-text>>/>
+</$vars>

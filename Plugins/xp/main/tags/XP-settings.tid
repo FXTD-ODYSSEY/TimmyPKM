@@ -1,0 +1,4 @@
+color: #cce4b8
+title: XP-settings
+
+<<list-links filter:"[all[shadows+tiddlers]tag[XP-settings]]">>

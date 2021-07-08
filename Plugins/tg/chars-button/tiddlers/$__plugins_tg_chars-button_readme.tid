@@ -1,0 +1,12 @@
+title: $:/plugins/tg/chars-button/readme
+
+A button ({{$:/core/images/chars}}) for inserting special characters.<br>
+Assigned shortcut: {{$:/config/shortcuts/chars}}
+
+To add new characters you can:
+
+# 'Add your own' menu entry
+# Cloning a Character button e.g. $:/language/Chars/alpha
+#* Adjust title, code and caption
+#* Save
+# Redefine an existing character

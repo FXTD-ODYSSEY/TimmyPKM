@@ -1,0 +1,20 @@
+caption: {{$:/xp/switchlayout/images/left-arrow}} switchlayout
+description: Switch sidebar layout
+tags: $:/tags/PageControls
+title: $:/xp/switchlayout/button
+
+<$list filter="[[$:/themes/tiddlywiki/vanilla/options/sidebarlayout]get[text]] +[else[fluid-fixed]!match[fixed-fluid]]" variable="ignore"><$button set="$:/themes/tiddlywiki/vanilla/options/sidebarlayout" setTo="fixed-fluid" tooltip="Fixed story" aria-label="Fixed story" class=<<tv-config-toolbar-class>>><$list filter="[<tv-config-toolbar-icons>prefix[yes]]">
+{{$:/xp/switchlayout/images/left-arrow}}
+</$list>
+<$action-setfield $tiddler="$:/_xp/Settings/sidebar-padding-left" text="42px"/>
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]">
+<span class="tc-btn-text"><$text text="switch layout"/></span>
+</$list>
+</$button></$list><$list filter="[[$:/themes/tiddlywiki/vanilla/options/sidebarlayout]get[text]] +[else[fluid-fixed]match[fixed-fluid]]" variable="ignore"><$button set="$:/themes/tiddlywiki/vanilla/options/sidebarlayout" setTo="fluid-fixed" tooltip="Fixed sidebar" aria-label="Fixed sidebar" class=<<tv-config-toolbar-class>>><$list filter="[<tv-config-toolbar-icons>prefix[yes]]">
+{{$:/xp/switchlayout/images/right-arrow}}
+</$list>
+<$action-setfield $tiddler="$:/_xp/Settings/sidebar-padding-left" text="{{!!sidebar-padding-left}}"/>
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]">
+<span class="tc-btn-text"><$text text="switch layout"/></span>
+</$list>
+</$button></$list>

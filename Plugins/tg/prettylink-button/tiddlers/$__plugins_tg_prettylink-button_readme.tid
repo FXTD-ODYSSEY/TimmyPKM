@@ -1,0 +1,4 @@
+title: $:/plugins/tg/prettylink-button/readme
+
+A button ({{$:/core/images/prettylink}}) for the Editor toolbar that creates a 'pretty link' (`[[link|abc]]`)<br>
+Assigned shortcut: {{$:/config/shortcuts/prettylink}}

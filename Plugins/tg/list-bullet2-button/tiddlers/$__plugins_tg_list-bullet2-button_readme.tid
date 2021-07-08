@@ -1,0 +1,9 @@
+title: $:/plugins/tg/list-bullet2-button/readme
+
+A button ({{$:/core/images/list-bullet2}}) that applies 2nd level bulleted list formatting to lines containing selection.<br>
+Assigned shortcut: {{$:/config/shortcuts/list-bullet2}}
+
+You can apply 2nd level bulleted list formating to
+
+* plain text
+* bulleted lists

@@ -1,0 +1,31 @@
+caption: {{$:/xp/Diary/images/diary}}
+color: #bbb
+icon: $:/xp/Diary/icon
+tags: $:/tags/SideBar
+title: Diary
+
+<$vars journalFilter="[!is[system]!has[draft.of]tag[Journal]!sort[created]]">
+
+<$set name="tv-config-toolbar-icons" value="yes">
+<$set name="tv-config-toolbar-class" value="">
+<$transclude tiddler="$:/core/ui/Buttons/new-journal"/>
+</$set>
+</$set>
+<$button tooltip="encrypt Journals">
+  <$action-navigate $to="encrypt Journals"/>
+{{$:/core/images/locked-padlock}}
+</$button>
+<$button tooltip="Card view">
+  <$action-navigate $to="DiaryCard"/>
+{{$:/core/images/preview-open}}
+</$button>
+{{$:/xp/Diary/Buttons/more-journal-actions}}
+
+<!-- Show journals resultCount -->
+<$set name="resultCount" value="""<$count filter=<<journalFilter>>/>""">
+<div class="tc-search-results">
+//<small><<resultCount>> journals</small>//
+</div>
+</$set>
+
+<$list filter=<<journalFilter>> template="$:/plugins/danielo515/encryptTiddler/ui/listItemTemplate"/>

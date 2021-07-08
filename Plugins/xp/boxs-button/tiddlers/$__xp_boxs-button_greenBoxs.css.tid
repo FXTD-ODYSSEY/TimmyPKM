@@ -1,0 +1,12 @@
+title: $:/xp/boxs-button/greenBoxs.css
+type: text/css
+
+html body.tc-body .blue-box,
+html body.tc-body .gray-box,
+html body.tc-body .green-box,
+html body.tc-body .purple-box,
+html body.tc-body .red-box,
+html body.tc-body .yellow-box {
+	background-color: #cfdac6;
+	color: #3b302e;
+}

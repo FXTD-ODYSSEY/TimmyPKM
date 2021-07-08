@@ -1,0 +1,5 @@
+caption: ~ToDo
+tags: $:/tags/SideBar
+title: ToDoList
+
+<<todolist-ui caption:"~ToDo" base:"Sidebar" width:"90%">>

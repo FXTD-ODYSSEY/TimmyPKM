@@ -1,0 +1,16 @@
+{
+	"version": "0.0.8",
+	"type": "application/json",
+	"title": "$:/plugins/tg/newline-button",
+	"source": "http://tongerner.tiddlyspot.com/",
+	"plugin-type": "plugin",
+	"name": "Newline button",
+	"modifier": "TonGerner",
+	"modified": "20191230200117768",
+	"list": "readme",
+	"description": "Newline button",
+	"creator": "TonGerner",
+	"created": "20170519144130151",
+	"core-version": "<=5.1.13",
+	"author": "TonGerneer"
+}

@@ -1,0 +1,9 @@
+description: create a main tiddler
+tags: $:/tags/Actions
+title: $:/core/ui/Actions/new-maintiddler
+
+\define get-tags() $(textFieldTags)$ $(tagsFieldTags)$
+\define get-text() $(textField)$
+<$vars textFieldTags={{$:/config/NewMainTiddler/Tags}} tagsFieldTags={{$:/config/NewMainTiddler/Tags!!tags}} textField={{$:/config/NewMainTiddler/Text}}>
+<$action-sendmessage $message="tm-new-tiddler" tags=<<get-tags>> text=<<get-text>>/>
+</$vars>

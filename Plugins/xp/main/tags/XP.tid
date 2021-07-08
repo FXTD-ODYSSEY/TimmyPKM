@@ -1,0 +1,4 @@
+color: #89f7fe
+title: XP
+
+<<list-links filter:"[all[shadows+tiddlers]tag[XP]]">>

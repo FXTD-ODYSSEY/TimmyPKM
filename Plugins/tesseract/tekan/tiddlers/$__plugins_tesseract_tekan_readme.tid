@@ -1,0 +1,27 @@
+title: $:/plugins/tesseract/tekan/readme
+
+! Tekan
+
+Tekan is a simple kanban client using TW5. 
+
+
+; First Board
+:First Board 是内置的一个模板，默认未启用，可点击按钮进行激活：
+;
+: <$button> Activate the First Board
+
+<$action-setfield $tiddler="First Board" tag="$:/tags/Tekanboard"/>
+<$action-setfield $tiddler="First Board/Completed" tag="First Board"/>
+<$action-setfield $tiddler="First Board/Ongoing" tag="First Board"/>
+<$action-setfield $tiddler="First Board/Planning" tag="First Board"/>
+
+</$button>
+;
+: 激活后，请前往看板界面进行查看。
+
+（如果以下条目显示为粗体，表示未启用）
+
+* [[First Board]]
+* [[First Board/Completed]]
+* [[First Board/Ongoing]]
+* [[First Board/Planning]]

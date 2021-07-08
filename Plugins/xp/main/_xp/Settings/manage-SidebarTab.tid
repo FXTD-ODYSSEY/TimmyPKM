@@ -1,0 +1,27 @@
+caption: Manage ~SidebarTab
+tags: XP-settings
+title: $:/_xp/Settings/manage-SidebarTab
+
+<style>
+.manage-sidebar-tab {
+  font-size: 1.1em;
+  line-height: 2em;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+body.tc-body .manage-sidebar-tab svg {
+  fill: crimson;
+}
+</style>
+
+
+<div class="manage-sidebar-tab">
+
+Show / Hide ~SidebarTab:
+
+|<$checkbox tiddler="TableOfContents" tag="$:/tags/SideBar"/> Contents |<$checkbox tiddler="$:/plugins/kookma/favorites/sidebar-tab" tag="$:/tags/SideBar"/> <<.icon $:/plugins/kookma/favorites/image>> Favorites |!<$checkbox tiddler="$:/core/ui/SideBar/Recent" tag="$:/tags/SideBar"/> Recent |!<$checkbox tiddler="$:/core/ui/SideBar/Tools" tag="$:/tags/SideBar"/> Tools |!<$checkbox tiddler="$:/core/ui/SideBar/More" tag="$:/tags/SideBar"/> More |<$checkbox tiddler="$:/_xp/Settings" tag="$:/tags/SideBar"/> XP | |
+|<$checkbox tiddler="ToDoList" tag="$:/tags/SideBar"/> ~ToDo |<$checkbox tiddler="TaskManagement" tag="$:/tags/SideBar"/> Task |<$checkbox tiddler="Projectify: Simple project management" tag="$:/tags/SideBar"/> Projectify |<$checkbox tiddler="Diary" tag="$:/tags/SideBar"/> <<.icon $:/xp/Diary/icon>> Diary |<$checkbox tiddler="$:/plugins/kookma/trashbin/sidebar-tab" tag="$:/tags/SideBar"/> <<.icon $:/plugins/kookma/trashbin/images/recycle>> Trashbin |<$checkbox tiddler="$:/plugins/felixhayashi/tiddlymap/hook/editor" tag="$:/tags/SideBar"/> Map |<$checkbox tiddler="$:/plugins/felixhayashi/tiddlymap/hook/liveTab" tag="$:/tags/SideBar"/> Live |
+|<$checkbox tiddler="$:/Commander" tag="$:/tags/SideBar"/> Commander |!<$checkbox tiddler="AdvancedSearch in SideBar" tag="$:/tags/SideBar"/> <<.icon $:/core/images/advanced-search-button>> ~AdvancedSearch |<$checkbox tiddler="Batch Encryption" tag="$:/tags/SideBar"/> <<.icon $:/xp/images/batch-encryption>> Batch Encryption | | | | |
+
+</div>

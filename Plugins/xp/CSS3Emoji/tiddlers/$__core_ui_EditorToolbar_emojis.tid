@@ -1,0 +1,9 @@
+caption: {{$:/language/Buttons/emojis/Caption}}
+condition: [<targetTiddler>type[]] [<targetTiddler>get[type]prefix[text/]] +[first[]]
+description: {{$:/language/Buttons/emojis/Hint}}
+dropdown: $:/core/ui/EditorToolbar/emojis-dropdown
+icon: $:/core/images/emojis
+shortcuts: ((emojis))
+tags: $:/tags/EditorToolbar
+title: $:/core/ui/EditorToolbar/emojis
+

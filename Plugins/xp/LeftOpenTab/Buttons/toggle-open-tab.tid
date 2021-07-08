@@ -1,0 +1,37 @@
+caption: {{$:/xp/LeftOpenTab/images/left-open-tab}} toggle open tab
+description: Toggle open tab
+tags: $:/tags/PageControls
+title: $:/xp/LeftOpenTab/Buttons/toggle-open-tab
+
+<$list filter="[title[$:/xp/LeftOpenTab/temp]!is[tiddler]]" ><$button set="$:/state/LeftOpenTab" setTo="show" tooltip="Left open tab" aria-label="Left open tab" class=<<tv-config-toolbar-class>>>
+	<$list filter="[<tv-config-toolbar-icons>prefix[yes]]">
+	{{$:/xp/LeftOpenTab/images/left-open-tab}}
+	</$list>
+		<$action-setfield $tiddler="$:/xp/LeftOpenTab/compatible-with-Stories-plugin.css" tags="$:/tags/Stylesheet"/>
+		<$action-setfield $tiddler="$:/core/ui/SideBar/Open" tags=""/>
+		<$action-setfield $tiddler="$:/state/tab/sidebar--595412856" text="TableOfContents"/>
+		<$action-setfield $tiddler="$:/xp/LeftOpenTab/temp" $field="storyleft-default" $value={{$:/xp/LeftOpenTab/Stylesheet!!storyleft-default}}/>
+		<$action-setfield $tiddler="$:/xp/LeftOpenTab/temp" $field="storyright-default" $value={{$:/xp/LeftOpenTab/Stylesheet!!storyright-default}}/>
+		<$action-setfield $tiddler="$:/themes/tiddlywiki/vanilla/metrics/storyleft" 
+			text="calc({{$:/xp/LeftOpenTab/Stylesheet!!width}} + {{$:/xp/LeftOpenTab/Stylesheet!!storyleft-default}} - {{$:/xp/LeftOpenTab/Stylesheet!!storyriver-padding-left}}) /* $:/xp/LeftOpenTab */" />
+		<$action-setfield $tiddler="$:/themes/tiddlywiki/vanilla/metrics/storyright"
+			text="calc({{$:/xp/LeftOpenTab/temp!!storyright-default}} + {{$:/themes/tiddlywiki/vanilla/metrics/storyleft}})"/>
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]">
+<span class="tc-btn-text"><$text text="toggle open tab"/></span>
+</$list>
+</$button></$list><$list filter="[title[$:/xp/LeftOpenTab/temp]is[tiddler]]" ><$button set="$:/state/LeftOpenTab" setTo="hide" tooltip="Restore open tab" aria-label="Restore open tab" class=<<tv-config-toolbar-class>>>
+	<$list filter="[<tv-config-toolbar-icons>prefix[yes]]">
+	{{$:/xp/LeftOpenTab/images/right-open-tab}}
+	</$list>
+		<$action-setfield $tiddler="$:/xp/LeftOpenTab/compatible-with-Stories-plugin.css" tags=""/>
+		<$action-setfield $tiddler="$:/core/ui/SideBar/Open" tags="$:/tags/SideBar"/>
+		<$action-setfield $tiddler="$:/state/tab/sidebar--595412856" text="$:/core/ui/SideBar/Open"/>
+		<$action-setfield $tiddler="$:/themes/tiddlywiki/vanilla/metrics/storyleft" 
+			text={{$:/xp/LeftOpenTab/temp!!storyleft-default}} />
+		<$action-setfield $tiddler="$:/themes/tiddlywiki/vanilla/metrics/storyright" 
+			text={{$:/xp/LeftOpenTab/temp!!storyright-default}} />
+		<$action-deletetiddler $tiddler="$:/xp/LeftOpenTab/temp"/>
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]">
+<span class="tc-btn-text"><$text text="toggle open tab"/></span>
+</$list>
+</$button></$list>

@@ -1,0 +1,106 @@
+tags: $:/tags/Stylesheet
+title: $:/themes/tiddlywiki-xp/base
+
+{{$:/themes/tiddlywiki/vanilla/base}}
+
+@media (min-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {
+    .tc-tiddler-frame { <<box-shadow "0 0 5px rgba(0, 0, 0, 0.09)">> }
+}
+
+.tc-drop-down { border-radius: 6px; }
+
+canvas.tc-edit-bitmapeditor  {
+    border: 1px solid <<colour tiddler-editor-border>>;
+}
+
+
+/* INPUTS */
+
+.tc-sidebar-search input { width: 180px; }
+
+input:not([type]), input[type=search], input[type=text] {
+    border: 1px solid <<colour tiddler-editor-border>>;
+}
+
+input[type=search] {
+    border-radius: 4px !important;
+    line-height: 1.25;
+}
+
+.kk-todolist-input-textbox {
+    border: 1px solid <<colour tiddler-editor-border>> !important;
+    line-height: 1.25;
+}
+
+
+/* BUTTONS */
+
+button { outline: none; }
+
+.tc-tab-buttons button,
+.tc-tab-buttons.tc-vertical button {
+    font-weight: 500;
+}
+
+.tc-tab-buttons button.tc-tab-selected {
+    font-weight: 600;
+}
+
+.tc-page-controls button svg, .tc-tiddler-controls button svg, .tc-topbar button svg {
+	<<transition "fill 150ms ease-in-out">>
+}
+
+/* Sidebar tab buttons */
+
+.tc-sidebar-lists .tc-tab-buttons.tc-vertical button.tc-tab-selected {
+    border: 1px solid <<colour tab-border-selected>>;
+    border-right: 1px solid <<colour page-background>>;
+}
+
+@media (min-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {
+<$list filter="[[$:/themes/tiddlywiki/vanilla/options/sidebarlayout]get[text]] +[else[fluid-fixed]!match[fixed-fluid]]" variable="ignore">
+    button {
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+
+    .tc-sidebar-lists .tc-tab-buttons button {
+        background-color: transparent;
+        border: none;
+    }
+
+    .tc-sidebar-lists .tc-tab-buttons button:hover {
+        background: none;
+        color: rgba(0, 150, 136, 0.8);
+        fill: rgba(0, 150, 136, 0.8);
+    }
+
+    .tc-sidebar-lists .tc-tab-buttons button.tc-tab-selected {
+        font-weight: bold;
+        border: none;
+        border-bottom: 1px solid rgba(0, 150, 136, 0.6);
+        color: rgba(0, 150, 136, 0.8);
+        fill: rgba(0, 150, 136, 0.8);
+    }
+</$list>
+
+<$list filter="[[$:/themes/tiddlywiki/vanilla/options/sidebarlayout]get[text]] +[else[fixed-fluid]!match[fluid-fixed]]" variable="ignore">
+	button { margin-top: 1px; }
+
+	.tc-sidebar-lists .tc-tab-buttons button.tc-tab-selected {
+        font-weight: bold;
+        color: rgba(0, 150, 136, 0.8);
+        fill: rgba(0, 150, 136, 0.8);
+	}
+</$list>
+}
+
+@media (max-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {
+	button { margin-top: 1px; }
+
+	.tc-sidebar-lists .tc-tab-buttons button.tc-tab-selected {
+        font-weight: bold;
+        color: rgba(0, 150, 136, 0.8);
+        fill: rgba(0, 150, 136, 0.8);
+	}
+}

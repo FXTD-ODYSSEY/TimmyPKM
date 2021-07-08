@@ -1,0 +1,35 @@
+caption: {{$:/_sq/Stories/icons/divert-right.svg}} divert left/right
+description: Divert left/right
+tags: $:/tags/ViewToolbar
+title: $:/_sq/Stories/divertTiddlerMacro
+
+\define divertTiddlerButton()
+<$set name="otherStoryList" filter="[enlist{$:/_sq/Stories/StoriesList!!list}] -[<tv-story-list>]" select="0">
+<$set name="otherHistoryList" filter="[enlist{$:/_sq/Stories/HistoriesList!!list}] -[<tv-history-list>]" select="0">
+	<$button class=<<tv-config-toolbar-class>> tooltip="Divert this tiddler to the other story">
+		<$navigator story=<<tv-story-list>> history=<<tv-history-list>> >
+			<$action-sendmessage $message="tm-close-tiddler" $param=<<currentTiddler>> />
+		</$navigator>
+		<$navigator story=<<otherStoryList>> history=<<otherHistoryList>> >
+			<$action-navigate $to=<<currentTiddler>> />
+		</$navigator>	
+		<span class="sq-button-divert-right sq-button-divert">{{$:/_sq/Stories/icons/divert-right.svg}}
+			<$list filter="[<tv-config-toolbar-text>match[yes]]">
+				<span class="tc-btn-text">
+					<$text text="divert right"/>
+				</span>
+			</$list>
+		</span>
+		<span class="sq-button-divert-left sq-button-divert">{{$:/_sq/Stories/icons/divert-left.svg}}
+			<$list filter="[<tv-config-toolbar-text>match[yes]]">
+				<span class="tc-btn-text">
+					<$text text="divert left"/>
+				</span>
+			</$list>
+		</span>
+	</$button>
+</$set>
+</$set>
+\end
+
+<<divertTiddlerButton>>

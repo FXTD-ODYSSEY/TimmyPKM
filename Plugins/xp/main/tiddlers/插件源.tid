@@ -1,0 +1,158 @@
+tags: [[List of plugins for XP]]
+title: 插件源
+
+<span class="purple-box">
+
+!! 此处罗列插件的来源。
+
+* 斜体插件链接表示该插件未被安装。<br>
+* ~~插件名~~带删除线，表示测试时出现兼容问题，不推荐安装。如果有修改插件的能力，可以无视删除线。
+* 可用双栏功能快速查看@@color:Green;已安装@@插件：<kbd>shift-Click</kbd> 插件链接，将其在右栏打开。
+
+> 优先使用在线插件库 <<tag "$:/tags/PluginLibrary">> 查看更新。其他插件需要到原站点查看是否有更新。
+
+</span>
+
+//''Official plugin''//
+
+---
+
+!! Official ~TiddlyWiki Plugin Library
+
+{{$:/core/ui/ControlPanel/Plugins/AddPlugins}}
+
+* $:/plugins/tiddlywiki/browser-sniff
+* $:/plugins/tiddlywiki/codemirror
+** $:/plugins/tiddlywiki/codemirror-autocomplete
+** $:/plugins/tiddlywiki/codemirror-closebrackets
+** $:/plugins/tiddlywiki/codemirror-closetag
+** $:/plugins/tiddlywiki/codemirror-mode-css
+** $:/plugins/tiddlywiki/codemirror-mode-markdown
+** $:/plugins/tiddlywiki/codemirror-search-replace
+** ~~~CodeMirror Fullscreen~~
+* $:/plugins/tiddlywiki/highlight
+* $:/plugins/tiddlywiki/internals
+* $:/plugins/tiddlywiki/katex
+* $:/plugins/tiddlywiki/markdown
+
+
+
+//''Third party plugins''//
+
+---
+
+!! ''[[KookmaPluginLibrary|https://github.com/kookma/TW-PluginLibrary]]'' 
+: This repo contains most useful plugins developed under name Kookma for Tiddlywiki 5. 
+
+<span class="blue-box">
+
+''How to use (install)''
+
+# Simply drag and drop [[$:/config/KookmaPluginLibrary]] to your wiki<br>
+# Open $:/ControlPanel in your wiki<br>
+# Goto Plugins tab<br>
+# Click on the ''Get more plugins'' button<br>
+# Under ''Kookma Plugin Library'' click Open plugin library<br>
+# In the list of plugins appeared, click install on those plugins you like to install in your wiki
+
+</span>
+
+* $:/plugins/kookma/favorites
+* $:/plugins/kookma/pinboard
+* $:/plugins/kookma/shiraz
+* $:/plugins/kookma/commander
+* $:/plugins/kookma/todolist
+* $:/plugins/kookma/trashbin
+* $:/plugins/kookma/utility
+
+
+!!  [[wikilabs / plugins|https://github.com/wikilabs/plugins]]
+
+<span class="blue-box">
+
+''How to use (install)''
+
+To use in other wikis, drag and drop this link to those wikis: [[Wikilabs Library (latest)|$:/config/wikilabs/PluginLibraryWL/latest]]
+
+</span>
+
+* $:/plugins/wikilabs/link-to-tabs
+* $:/plugins/wikilabs/multicol-dropdown
+
+
+!! [[Thomas Elmiger's plugin|https://tid.li/tw5/plugins.html]]
+
+* $:/plugins/telmiger/details
+* $:/plugins/telmiger/EditButtons
+* $:/plugins/telmiger/EditorCounter
+
+
+!! [[TonGerner's plugin|http://tw5custom.tiddlyspot.com/]]
+: Also see http://tongerner.tiddlyspot.com/
+
+* $:/plugins/tg/chars-button
+* $:/plugins/tg/iframe-button
+* $:/plugins/tg/layout
+* $:/plugins/tg/list-bullet2-button
+* $:/plugins/tg/mark-button
+* $:/plugins/tg/newline-button
+* $:/plugins/tg/note-button
+* $:/plugins/tg/prettylink-button
+* $:/plugins/tg/timestamp-button
+* $:/plugins/tg/topleftmenu
+* ~~Go to bottom in edit mode~~
+
+
+!! [[jd's plugin|http://j.d.tiddlyspot.com/]]
+
+* [[Font Scroller|http://j.d.tiddlyspot.com/#Font%20Scroller%20(tiddler)]] $:/jd/Buttons/font-size
+* ~~[[Fullscreen Editor|http://j.d.fullscreen.tiddlyspot.com/]]~~
+
+
+!! [[TiddlyWiki toolmap - Over 600 entries!|https://dynalist.io/d/zUP-nIWu2FFoXH-oM7L7d9DM]]
+
+* [[TiddlyMap|http://felixhayashi.github.io/TW5-TiddlyMap/index.html#Getting started]] (demo [[here|http://tiddlymap.org/]]) 
+** $:/plugins/felixhayashi/tiddlymap
+** $:/plugins/felixhayashi/vis
+** $:/plugins/felixhayashi/hotzone
+** $:/plugins/felixhayashi/topstoryview
+
+
+
+!! 其他插件
+
+* [[Command palette|https://github.com/Souk21/TW-commandpalette]] $:/plugins/souk21/commandpalette
+* [[Context search|http://contextplugin.tiddlyspot.com/]] $:/plugins/danielo515/ContextPlugin
+* ~~[[edit-comptext|http://snowgoon88.github.io/TW5-extendedit]]~~ 与 ~CodeMirror 互斥，不推荐安装。请用默认快捷键 <kbd>ctrl-L</kbd> 创建维基文字链接
+* [[encryptTiddler|https://github.com/danielo515/TW5-EncryptTiddlerPlugin]] $:/plugins/danielo515/encryptTiddler
+* [[Relink|https://github.com/flibbles/tw5-relink]]
+** $:/plugins/flibbles/relink
+** $:/plugins/flibbles/relink-markdown
+* [[Stories|https://giffmex.org/stroll/stroll.html]] $:/plugins/sq/Stories
+* [[preview|https://tobibeer.github.io/tw5-plugins/#preview]]
+** $:/plugins/tobibeer/preview
+** $:/plugins/tobibeer/appear
+* [[Projectify|https://github.com/NicolasPetton/Projectify]]
+** $:/plugins/nico/projectify
+** $:/plugins/nico/projectify-zh-Hans
+** $:/plugins/nico/shields
+* [[SpanClass|https://giffmex.org/gifts/documenting.tw.html#]]
+** $:/.giffmex/EditorToolbar/Wrap/SpanClass
+** `$:/.giffmex/images/blue</>`
+* [[Tekan|https://ibnishak.github.io/Tesseract/projects/tekan/Tekan.html]] $:/plugins/tesseract/tekan
+* [[Tinka|https://github.com/TinkaPlugin/Tinka]] $:/plugins/ahahn/tinka
+* [[tw5-checklist|https://grosinger.net/tw5-checklist/]] $:/plugins/tgrosinger/tw5-checklist
+* [[TW5FontAwesome|https://github.com/TheDiveO/TW5FontAwesome]] $:/plugins/TheDiveO/FontAwesome
+
+
+
+!! 主题 && 调色板
+
+: 请参阅官方主题。这里罗列几个第三方主题。
+
+* [[palettes|http://j.d.palette.tiddlyspot.com/]]
+** $:/palettes/jd/CoolMint
+** $:/palettes/jd/Neonize
+* [[引思网卡片库|https://wiki.hintsnet.com/#]] $:/palettes/pimgeek
+* ~~[[Mono Theme |http://j.d.tiddlyspot.com]]~~
+* [[ItonNote Theme|https://onetwo.ren/wiki/#%24%3A%2Fthemes%2Flinonetwo%2Fitonnote]]

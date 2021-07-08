@@ -1,0 +1,15 @@
+caption: 看板
+title: Kanban
+
+这是 Tekan，一个基于 ~TiddlyWiki 的看板（Kanban）。认识 Tekan 最简单的方法就是使用它。那么让我们开始吧。
+
+* 点击页面工具栏上的控制按钮 {{$:/Tekan/Switch}} 进入看板。
+* 右上角的功能按钮可以重新排列列表、删除当前面板、新建面板、返回 ~TiddlyWiki。{{$:/Tekan/NavboardButtons}}（鼠标悬浮其上会有提示）
+* 点击 {{$:/core/images/new-button}} 按钮，创建一个新的面板。或者首次使用可前往 [[readme|$:/plugins/tesseract/tekan/readme]] 激活模板：[[First Board|]]。
+* 在列表区，点击「Add new list」，创建新的列表。
+* 而在新的列表中，点击页脚的「add a card」，即可创建新的卡片。
+* 对卡片进行编辑，在 Add Comment 中添加注释，点击 <$button>Done</$button> 关闭条目。
+* 点击左上角的 <button>Board</button> 按钮，切换其他面板。
+
+
+> 插件：$:/plugins/tesseract/tekan

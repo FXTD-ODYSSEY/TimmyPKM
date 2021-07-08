@@ -1,0 +1,4 @@
+color: #faca28
+title: test
+
+<<list-links filter:"[all[shadows+tiddlers]tag[test]]">>

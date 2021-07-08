@@ -1,0 +1,11 @@
+{
+	"version": "0.0.5",
+	"type": "application/json",
+	"title": "$:/xp/SplashScreen",
+	"plugin-type": "plugin",
+	"modified": "20210610131754233",
+	"list": "readme",
+	"description": "Switch SplashScreen",
+	"created": "20210127031225269",
+	"author": "kl"
+}

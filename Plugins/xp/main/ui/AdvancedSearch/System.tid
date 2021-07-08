@@ -1,0 +1,6 @@
+caption: System
+first-search-filter: [is[system]search<userInput>sort[title]limit[250]] -[[$:/temp/advancedsearch]] -[[$:/temp/advancedsearch/input]] -[[$:/temp/advancedsearch/selected-item]]
+tags: $:/tags/AdvancedSearchInSideBar
+title: $:/xp/ui/AdvancedSearch/System
+
+{{$:/core/ui/AdvancedSearch/System}}

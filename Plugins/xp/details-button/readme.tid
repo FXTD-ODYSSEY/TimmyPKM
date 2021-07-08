@@ -1,0 +1,8 @@
+title: $:/xp/details-button/readme
+
+A button ({{$:/core/images/details}}) for the Editor toolbar adds a HTML5 `<details>` element. The `<details>` tag specifies additional details that the user can open and close on demand. 
+
+Assigned shortcut: {{$:/config/shortcuts/details}}
+
+!! Dependents:
+* [[DetailsWidget|https://tid.li/tw5/plugins.html#DetailsWidget]] ($:/plugins/telmiger/details)
