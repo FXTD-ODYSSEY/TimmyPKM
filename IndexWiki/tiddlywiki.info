@@ -4,6 +4,8 @@
 		"OokTech/Bob",
 		"OokTech/TWederBob",
 		"tiddlywiki/tiddlyweb",
+		"tiddlywiki/d3",
+		"tiddlywiki/codemirror-fullscreen-editing",
 		"tiddlywiki/filesystem",
 		"tiddlywiki/highlight",
 		"tiddlywiki/browser-sniff",
@@ -88,6 +90,7 @@
 		"palettes/collecting",
 		"nico/shields",
 		"sq/stories",
+		"sq/streams",
 		"tesseract/tekan",
 		"tg/chars-button",
 		"tg/iframe-button",
@@ -97,6 +100,7 @@
 		"tg/prettylink-button",
 		"tg/timestamp-button",
 		"adithyab/cmplus",
+		"ihm/tidgraph",
 		"kl/checkbox-button"
 	],
 	"themes": [
