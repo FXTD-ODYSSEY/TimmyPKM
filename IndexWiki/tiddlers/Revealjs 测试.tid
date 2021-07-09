@@ -1,0 +1,14 @@
+created: 20210709124941262
+modified: 20210709130101984
+tags: TableOfContents
+title: Revealjs 测试
+tmap.id: c26b356d-02ae-457c-8d22-240ab7720039
+
+<$presentation>
+<$slide>Welcome to ''Reveal.js''</$slide>
+<$slide>Embedded inside TiddlyWiki</$slide>
+<$slide>
+  <$slide>Vertical Slides</$slide>
+  <$slide>Can also me manged with one level of nesting</$slide>
+</$slide>
+</$presentation>

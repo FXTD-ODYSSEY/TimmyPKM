@@ -102,6 +102,7 @@
 		"adithyab/cmplus",
 		"ihm/tidgraph",
 		"giffmex/stroll",
+		"sukima/reveal-js",
 		"kl/checkbox-button"
 	],
 	"themes": [
