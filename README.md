@@ -26,7 +26,7 @@ PKM is Personal Knowledge Management
 - [ ] https://giffmex.org/gifts/Toggle/toggle.html
 - [x] roam research https://saqimtiaz.github.io/streams/
 - [x] graph https://ihm4u.github.io/tw5plugs/
-- [ ] backlink https://giffmex.org/stroll/stroll.html
+- [x] backlink https://giffmex.org/stroll/stroll.html # strollcontrols 显示问题
 - [ ] timeline http://kixam.github.io/TW5-visjsTimeline/
 - [ ] iframe for user feedback  
 - [ ] calendar support
@@ -37,6 +37,6 @@ http://batchmanipulator.tiddlyspot.com/
 https://nesslabs.com/tiddlywiki-beginner-tutorial
 http://tw5toolbar.tiddlyspot.com/
 http://inmysocks.tiddlyspot.com/#What%20to%20do
-
+https://zettelkasten.sorenbjornstad.com/
 
 https://github.com/brettkromkamp/awesome-knowledge-management

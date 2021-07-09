@@ -101,6 +101,7 @@
 		"tg/timestamp-button",
 		"adithyab/cmplus",
 		"ihm/tidgraph",
+		"giffmex/stroll",
 		"kl/checkbox-button"
 	],
 	"themes": [
