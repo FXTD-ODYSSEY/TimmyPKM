@@ -102,6 +102,8 @@
 		"ihm/tidgraph",
 		"giffmex/stroll",
 		"sukima/reveal-js",
+		"HCHaase/toc_counting",
+		"HCHaase/TOCgeneric",
 		"kl/checkbox-button"
 	],
 	"themes": [
