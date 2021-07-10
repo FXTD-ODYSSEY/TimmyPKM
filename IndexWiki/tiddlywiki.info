@@ -102,7 +102,6 @@
 		"ihm/tidgraph",
 		"giffmex/stroll",
 		"sukima/reveal-js",
-		"bourgeoa/nodesolidserver",
 		"kl/checkbox-button"
 	],
 	"themes": [

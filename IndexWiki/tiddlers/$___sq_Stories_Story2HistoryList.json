@@ -637,23 +637,25 @@
         "title": "$:/plugins/sq/Stories/changelog"
     },
     {
-        "title": "changelist-Pinboard"
-    },
-    {
-        "title": "changelist-Pinboard"
-    },
-    {
-        "title": "$:/plugins/kookma/pinboard"
-    },
-    {
-        "title": "$:/plugins/kookma/pinboard/styles/corkboard",
+        "title": "Revealjs 测试",
         "fromPageRect": {
-            "top": 579.25,
-            "left": 1041.0625,
-            "width": 355.203125,
-            "right": 1396.265625,
-            "bottom": 598.25,
-            "height": 19
+            "top": 368.59375,
+            "left": 1316.609375,
+            "width": 30.09375,
+            "right": 1346.703125,
+            "bottom": 404.59375,
+            "height": 36
+        }
+    },
+    {
+        "title": "Revealjs 测试",
+        "fromPageRect": {
+            "top": 56,
+            "left": 1316.609375,
+            "width": 30.09375,
+            "right": 1346.703125,
+            "bottom": 92,
+            "height": 36
         }
     }
 ]
