@@ -5,7 +5,6 @@
 		"OokTech/TWederBob",
 		"tiddlywiki/tiddlyweb",
 		"tiddlywiki/d3",
-		"tiddlywiki/codemirror-fullscreen-editing",
 		"tiddlywiki/filesystem",
 		"tiddlywiki/highlight",
 		"tiddlywiki/browser-sniff",
@@ -87,7 +86,6 @@
 		"xp/SplashScreen",
 		"xp/switchlayout",
 		"themes/tiddlywiki-xp",
-		"palettes/collecting",
 		"nico/shields",
 		"sq/stories",
 		"sq/streams",
@@ -103,6 +101,7 @@
 		"ihm/tidgraph",
 		"giffmex/stroll",
 		"sukima/reveal-js",
+		"bourgeoa/nodesolidserver",
 		"kl/checkbox-button"
 	],
 	"themes": [
