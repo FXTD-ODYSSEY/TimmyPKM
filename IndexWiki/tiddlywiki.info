@@ -40,6 +40,7 @@
 		"linonetwo/prevent-edit",
 		"linonetwo/source-control-management",
 		"linonetwo/itonnote",
+		"linonetwo/solid-tiddlywiki-syncadaptor",
 		"sobjornstad/TiddlyRemember",
 		"danielo515/ContextPlugin",
 		"danielo515/encryptTiddler",
