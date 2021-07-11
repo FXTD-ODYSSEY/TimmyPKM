@@ -1,0 +1,23 @@
+created: 20210711152923917
+modified: 20210711160024555
+tags: Index
+title: 智伤帝的数字花园
+tmap.id: d586f06d-4dd8-4b25-9f44-699cb875d88c
+type: text/vnd.tiddlywiki
+
+! 智伤帝的数字花园^^<font color="#4ac3bf">xp</font>^^
+
+基于 [[TiddlyWiki|https://tiddlywiki.com]] 非线性笔记系统搭建的第二大脑。
+
+---
+
+我的数字花园是基于 [[tiddlywiki-xp|https://github.com/keatonlao/tiddlywiki-xp]] 框架以及 [[林一二的模因和想法|https://onetwo.ren/wiki/]] 两个框架整合而成
+
+过程中我调整了两个框架的插件，并且在加上自己额外添加的插件组装而成。 [[github TimmyPKM|https://github.com/FXTD-ODYSSEY/TimmyPKM]]
+
+<<reuse-tiddler "TiddlyWiki Plugins的增删汇总">>
+
+
+
+
+

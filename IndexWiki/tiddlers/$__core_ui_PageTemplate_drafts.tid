@@ -1,7 +1,8 @@
 created: 20210707144737741
-modified: 20210707160204800
+modified: 20210711155908380
 tags: $:/tags/PageTemplate
 title: $:/core/ui/PageTemplate/drafts
+type: text/vnd.tiddlywiki
 
 \whitespace trim
 <$reveal state="$:/status/IsReadOnly" type="nomatch" text="yes" tag="div" class="tc-drafts-list">

@@ -22,6 +22,7 @@
 		"bimlas/kin-filter",
 		"mat/field-value-selector",
 		"linonetwo/github-external-image",
+		"linonetwo/inverse-link-and-folder",
 		"linonetwo/copy-on-select",
 		"linonetwo/preview-glass",
 		"linonetwo/itonnote",
@@ -43,6 +44,7 @@
 		"kookma/trashbin",
 		"kookma/utility",
 		"telmiger/details",
+		"telmiger/EditButtons",
 		"telmiger/EditorCounter",
 		"tgrosinger/tw5-checklist",
 		"TheDiveO/FontAwesome",
@@ -77,8 +79,6 @@
 		"adithyab/cmplus",
 		"ihm/tidgraph",
 		"sukima/reveal-js",
-		"HCHaase/toc_counting",
-		"HCHaase/TOCgeneric",
 		"kl/checkbox-button"
 	],
 	"themes": [

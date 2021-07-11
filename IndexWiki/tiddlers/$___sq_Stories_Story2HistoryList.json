@@ -637,25 +637,12 @@
         "title": "$:/plugins/sq/Stories/changelog"
     },
     {
-        "title": "Revealjs 测试",
-        "fromPageRect": {
-            "top": 368.59375,
-            "left": 1316.609375,
-            "width": 30.09375,
-            "right": 1346.703125,
-            "bottom": 404.59375,
-            "height": 36
-        }
+        "title": "TiddlyWiki Plugins的增删汇总"
     },
     {
-        "title": "Revealjs 测试",
-        "fromPageRect": {
-            "top": 56,
-            "left": 1316.609375,
-            "width": 30.09375,
-            "right": 1346.703125,
-            "bottom": 92,
-            "height": 36
-        }
+        "title": "Draft of 'TiddlyWiki Plugins的增删汇总'"
+    },
+    {
+        "title": "TiddlyWiki Plugins的增删汇总"
     }
 ]

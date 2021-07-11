@@ -1,8 +1,9 @@
 created: 20210707144737741
 list-after: $:/core/ui/PageTemplate/story
-modified: 20210707160204800
+modified: 20210711155907938
 tags: $:/tags/PageTemplate
 title: $:/_sq/Stories/Templates/Story2Template
+type: text/vnd.tiddlywiki
 
 \whitespace trim
 <$reveal state="$:/config/_sq/Stories/story2" type="match" text="yes" default="no" retain="yes" animate="no" tag="section" class="tc-story-river tc-storytwo-river sq-story-rivertwo">

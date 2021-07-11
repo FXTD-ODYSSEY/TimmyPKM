@@ -1,7 +1,8 @@
 created: 20210707144737741
-modified: 20210707160204800
+modified: 20210711155908319
 tags: $:/tags/PageTemplate
 title: $:/core/ui/PageTemplate/alerts
+type: text/vnd.tiddlywiki
 
 <div class="tc-alerts">
 
