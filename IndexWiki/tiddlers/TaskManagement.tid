@@ -1,9 +1,10 @@
 caption: Task
-created: 20210708123449338
-modified: 20210708123522729
+created: 20210711145158181
+modified: 20210711145159832
 tags: 
 title: TaskManagement
-tmap.id: a516064c-1d46-4b8e-bbbd-6bc902e1a6a2
+tmap.id: 120a8ad2-7ab8-4392-b092-b9cd29e44056
+type: text/vnd.tiddlywiki
 
 <$button tooltip="New task">
 	<$action-sendmessage $message="tm-new-tiddler" title=<<now "Job YYYY/0MM0DD ">> tags="task" priority="normal" status="open"/>

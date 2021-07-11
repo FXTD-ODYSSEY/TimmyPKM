@@ -1,8 +1,9 @@
 caption: ~ToDo
-created: 20210708123445678
-modified: 20210708123445678
+created: 20210711145716509
+modified: 20210711145716519
 tags: 
 title: ToDoList
-tmap.id: 76553fce-e595-48c7-97f1-f8a379ffda2e
+tmap.id: edeb307d-df0a-4553-b069-e425516edcb6
+type: text/vnd.tiddlywiki
 
 <<todolist-ui caption:"~ToDo" base:"Sidebar" width:"90%">>

@@ -1,0 +1,14 @@
+caption: CHECKLIST
+color: #c7ecf8
+created: 20210711150520031
+modified: 20210711150520031
+tags: TableOfContents
+title: Checklist
+tmap.id: 32fc0e26-2a86-4575-be45-9dfcd8fef9b3
+type: text/vnd.tiddlywiki
+
+<small><i class="tc-muted">Only the first tab can be edited directly here!</i></small>
+
+<$list filter="[tag[Checklist]!sort[created]limit[1]]">
+  <$macrocall $name="tabs" tabsList="[tag[Checklist]!sort[created]]" default={{!!title}} class="tc-vertical" template="MacroTabsTemplate" />
+</$list>

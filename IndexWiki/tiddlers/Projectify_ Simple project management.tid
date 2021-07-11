@@ -1,0 +1,9 @@
+caption: Projectify
+created: 20210711145715345
+modified: 20210711145715355
+tags: 
+title: Projectify: Simple project management
+tmap.id: 8ec1a79b-a3eb-4f7e-b510-d7489310c50b
+type: text/vnd.tiddlywiki
+
+{{$:/plugins/nico/projectify/ui/dashboard/Dashboard}}

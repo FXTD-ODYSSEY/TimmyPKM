@@ -1,7 +1,8 @@
 created: 20210707144507059
-modified: 20210709130714317
+modified: 20210711142955515
 tags: 
 title: $:/xp/LeftOpenTab/compatible-with-Stories-plugin.css
+type: text/vnd.tiddlywiki
 
 \define sidebarbreakpoint()
 <$text text={{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}/>
