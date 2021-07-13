@@ -1,0 +1,9 @@
+created: 20210712115208722
+modified: 20210712115210638
+parent: Unreal 定序器播放不流畅/20210712115133307
+stream-type: default
+title: Unreal 定序器播放不流畅/20210712115208721
+tmap.id: ccb75f5c-a186-48a9-899b-93701123ea2a
+type: text/vnd.tiddlywiki
+
+帧速率问题 动画使用 30 帧 制作，但是定序器却用了 60 fps

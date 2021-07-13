@@ -1,0 +1,10 @@
+created: 20210712115139001
+modified: 20210713015231522
+parent: Unreal 定序器播放不流畅/20210712115135679
+stream-list: 
+stream-type: default
+title: Unreal 定序器播放不流畅/20210712115139000
+tmap.id: c9326e30-945e-4fd0-a8c6-51993c47cfac
+type: text/vnd.tiddlywiki
+
+不能使用定序器的拍屏，使用 Movie Recorder Queue 可以配置设置，将动态模糊禁用掉。<br>在配置属性的 Console Varaible 里面添加 `r.MotionBlurQuality 0` 以及 `r.MotionBlurSeperable 0` 

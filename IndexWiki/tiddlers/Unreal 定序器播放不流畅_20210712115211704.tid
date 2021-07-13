@@ -1,0 +1,9 @@
+created: 20210712115211705
+modified: 20210712115216060
+parent: Unreal 定序器播放不流畅/20210712115133307
+stream-type: default
+title: Unreal 定序器播放不流畅/20210712115211704
+tmap.id: e8d7560e-5472-4690-a06a-7bd90083672f
+type: text/vnd.tiddlywiki
+
+动画文件的帧速率 interpolation 如果使用 linear 也会比 step 效果好点但是并不是很好的解决方案
