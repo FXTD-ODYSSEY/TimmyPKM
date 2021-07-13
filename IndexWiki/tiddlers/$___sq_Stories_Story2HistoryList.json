@@ -637,12 +637,14 @@
         "title": "$:/plugins/sq/Stories/changelog"
     },
     {
-        "title": "TiddlyWiki Plugins的增删汇总"
-    },
-    {
-        "title": "Draft of 'TiddlyWiki Plugins的增删汇总'"
-    },
-    {
-        "title": "TiddlyWiki Plugins的增删汇总"
+        "title": "小狼毫输入法配置",
+        "fromPageRect": {
+            "top": 471.96875,
+            "left": 1307.6875,
+            "width": 30.09375,
+            "right": 1337.78125,
+            "bottom": 507.96875,
+            "height": 36
+        }
     }
 ]
