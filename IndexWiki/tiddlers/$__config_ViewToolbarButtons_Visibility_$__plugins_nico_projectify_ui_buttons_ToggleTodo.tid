@@ -1,6 +1,6 @@
 created: 20210711144957051
-modified: 20210711144957061
+modified: 20210713042811564
 title: $:/config/ViewToolbarButtons/Visibility/$:/plugins/nico/projectify/ui/buttons/ToggleTodo
 type: text/vnd.tiddlywiki
 
-hide
+show

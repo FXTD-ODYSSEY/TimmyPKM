@@ -1,0 +1,19 @@
+<$wikify name="fontUp" text="""
+<$list filter="[{$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize}previous[$:/jd/Buttons/font-size]]" emptyMessage="40px"/>
+""">
+<$wikify name="fontDown" text="""
+<$list filter="[{$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize}next[$:/jd/Buttons/font-size]]" emptyMessage="13px"/>
+""">
+<$button class="tc-btn-invisible" tooltip="Decrease font size">
+<$action-setfield $tiddler="$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize" text=<<fontDown>>/>
+<$action-setfield $tiddler="$:/themes/tiddlywiki/vanilla/metrics/bodylineheight" text="1.35"/>
+<font color="#aaaaaa">&#8722;</font>
+</$button>{{$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize}}
+
+<$button class="tc-btn-invisible" tooltip="Increase font size">
+<$action-setfield $tiddler="$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize" text=<<fontUp>>/>
+<$action-setfield $tiddler="$:/themes/tiddlywiki/vanilla/metrics/bodylineheight" text="1.35"/>
+<font color="#aaaaaa">&#43;</font>
+</$button>
+</$wikify>
+</$wikify>
