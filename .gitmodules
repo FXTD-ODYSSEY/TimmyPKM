@@ -1,0 +1,12 @@
+[submodule "Thirdparty/wikilabs"]
+	path = Thirdparty/wikilabs
+	url = https://github.com/wikilabs/plugins
+[submodule "Thirdparty/TiddlyRemember"]
+	path = Thirdparty/TiddlyRemember
+	url = https://github.com/sobjornstad/TiddlyRemember
+[submodule "Thirdparty/TW-commandpalette"]
+	path = Thirdparty/TW-commandpalette
+	url = git@github.com:Souk21/TW-commandpalette.git
+[submodule "Thirdparty/streams"]
+	path = Thirdparty/streams
+	url = https://github.com/saqimtiaz/streams

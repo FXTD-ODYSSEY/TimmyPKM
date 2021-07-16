@@ -1,8 +1,8 @@
 created: 20210707144510452
-modified: 20210711151207918
+modified: 20210715040023147
 sidebar-padding-left: 22px
 tags: XP-settings
 title: $:/_xp/Settings/sidebar-padding-left
 type: text/vnd.tiddlywiki
 
-{{!!sidebar-padding-left}}
+42px
