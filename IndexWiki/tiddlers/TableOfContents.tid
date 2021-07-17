@@ -1,0 +1,14 @@
+caption: {{$:/language/SideBar/Contents/Caption}}
+created: 20210717051233479
+list: HelloThere WikiText [[List of plugins for XP]] TiddlerExample
+modified: 20210717051234059
+tags: TableOfContents $:/tags/SideBar
+title: TableOfContents
+tmap.id: 881418e9-e83e-4197-a6ff-8f878dc14a89
+type: text/vnd.tiddlywiki
+
+{{$:/core/ui/Buttons/new-maintiddler}}　{{$:/core/ui/Buttons/new-checklist}}
+
+<div class="tc-table-of-contents">
+<<toc-selective-expandable 'TableOfContents'>>
+</div>

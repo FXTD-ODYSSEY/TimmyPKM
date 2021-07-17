@@ -21,7 +21,7 @@
 		"tiddlywiki/googleanalytics",
 		"tiddlywiki/internals",
 		"tiddlywiki/katex",
-		"tiddlywiki/sax",
+		"tiddlywiki/freelinks",
 		"tiddlywiki/qrcode",
 		"tiddlywiki/markdown",
 		"dullroar/sitemap",

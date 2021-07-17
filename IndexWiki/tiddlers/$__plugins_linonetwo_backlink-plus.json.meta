@@ -1,0 +1,11 @@
+author: LinOnetwo
+core-version: >=5.1.22
+created: 20210716013329281
+dependents: 
+description: Filter to Get backlink of image-link and transclusion
+list: readme
+modified: 20210716013329281
+plugin-type: plugin
+title: $:/plugins/linonetwo/backlink-plus
+type: application/json
+version: 0.0.1
