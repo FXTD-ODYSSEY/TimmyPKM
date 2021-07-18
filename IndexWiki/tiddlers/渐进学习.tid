@@ -1,10 +1,15 @@
 created: 20210717052535459
-modified: 20210717052618603
+modified: 20210718152818812
 tags: 学习方法论
 title: 渐进学习
 tmap.id: 93aaeb67-97af-42a2-8328-7a70e5a8ef3b
 type: text/vnd.tiddlywiki
 web: https://zhuanlan.zhihu.com/p/374403541
 
+Incremental Learning
+
 https://zhuanlan.zhihu.com/p/374403541
+
+<$macrocall $name="locator-view" baseTitle=<<currentTiddler>> />
+
 

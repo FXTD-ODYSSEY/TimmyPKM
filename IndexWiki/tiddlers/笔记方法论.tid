@@ -1,13 +1,10 @@
 created: 20210717051233477
-modified: 20210717053124661
+modified: 20210718152740288
 stream-list: 笔记方法论/20210717052312761
 stream-type: default
-tags: 学习方法论 Index
+tags: PKM
 title: 笔记方法论
 tmap.id: 1cfdb9f5-6fa7-43df-b334-2be8409d6618
 type: text/vnd.tiddlywiki
 
-
-<div class="tc-table-of-contents">
-<<toc-selective-expandable  "笔记方法论" "sort[title]">>
-</div>
+<$macrocall $name="locator-view" baseTitle=<<currentTiddler>> />

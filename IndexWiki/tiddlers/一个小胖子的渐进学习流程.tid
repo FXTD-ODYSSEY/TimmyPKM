@@ -1,0 +1,80 @@
+created: 20210718153108680
+modified: 20210718153133683
+tags: @Inbox
+title: 一个小胖子的渐进学习流程
+tmap.id: 4c90eda9-6361-4e3c-b7e5-c87e46cfb3d2
+type: text/vnd.tiddlywiki
+
+"""
+
+https://zhuanlan.zhihu.com/p/341573608
+
+1. 学习前先把大纲和标题导入到 supermemo 作为学习进度记录
+2. 根据 supermemo 提供的学习计划，去到相应的材料区域进行阅读
+3. 阅读过程中对材料进行标注理解，将难点进一步分离出来
+4. 经过多次的提炼之后，将 PDF 的标注去导入到 supermemo 作为复习用的卡片。
+
+
+https://zhuanlan.zhihu.com/p/347996732
+
+1. mutool 将 PDF 的内容转换为 图片
+2. 将图片以 html 的形式 分别导入到 supermemo 中
+3. 提取出相应图片的信息 来制卡
+
+https://zhuanlan.zhihu.com/p/348037031
+
+1. 通过 播放器 和 浏览器插件 实现视频标签的标注
+2. 然后通过将标签导出作为增量学习的材料导入到 SM 中
+
+https://zhuanlan.zhihu.com/p/348881802
+
+1. 对第一篇总论文章 提取方案的补充
+
+https://zhuanlan.zhihu.com/p/350092242
+
+对前面四篇文章的回顾和总结
+
+[SuperMemo实践闭环(1)-学习流程及时间管理](https://zhuanlan.zhihu.com/p/352413185)
+
+所有的材料和信息都归纳到 SM 外部， SM 只作为学习进度安排的工具。
+利用 obsidian 可以将外链的卡片织成网络
+
+[SuperMemo实践闭环(2)-增量学习及提取制卡](https://zhuanlan.zhihu.com/p/354571964)
+[SuperMemo实践闭环(3)-批量挖空制卡的操作](https://zhuanlan.zhihu.com/p/354700359)
+
+制卡过程
+
+将上面提取的材料提纯消化成自己的理解之后，根据记忆的需要进行制卡
+
+1. 文字为 obsidian 的 md 文件
+
+可以利用 anki2sm 的方式先到 anki 里面制卡再导入到 sm
+也可以直接复制 md 的知识点粘贴到 sm 中挖空
+
+2. PDF 文档
+
+文本类的内容处理 (已经转换为 md 了) 参考上面
+如果是图片类的内容则需要用遮挡来完成制卡 
+作者通过 Python OpenCV 识别半透名的遮挡自动生成逐空的完全遮挡图片。
+图片则利用 PicGo 上传到对应的图床 返回图片链接进行处理
+
+3. 网页
+
+使用 page-note 进行标注提取，也变成了纯文本处理
+
+4. 视频
+
+用 PotPlayer 和 YiNote 插件来标注处理
+作者后面有专门的文章介绍使用 MPV 播放器来替代 PotPlayer
+
+
+[SuperMemo实践闭环(4)-交互式处理网页材料](https://zhuanlan.zhihu.com/p/363573169)
+
+
+当各种不同网页的链接非常博杂的时候，就很难分清哪些网页是需要的，数据会很混乱。
+通过交互网页的方式过滤出有意义的网页材料，从而专注学习
+
+[MPV播放器系列(一)-剪辑在线视频](https://zhuanlan.zhihu.com/p/366296441)
+[MPV播放器系列(二)-完成课堂笔记](https://zhuanlan.zhihu.com/p/366590721)
+
+利用 MPV 播放器可以实现视频的在线剪辑以及信息提取

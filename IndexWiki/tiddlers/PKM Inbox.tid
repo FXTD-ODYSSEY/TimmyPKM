@@ -1,0 +1,8 @@
+created: 20210718132358786
+modified: 20210718152724173
+tags: PKM
+title: PKM Inbox
+tmap.id: e681c591-54bd-4a44-8f9a-69f42d86c0f1
+type: text/vnd.tiddlywiki
+
+<$macrocall $name="locator-view" baseTitle=<<currentTiddler>> />

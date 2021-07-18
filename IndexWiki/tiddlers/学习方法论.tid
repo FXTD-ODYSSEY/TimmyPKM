@@ -1,10 +1,8 @@
-created: 20210717051327841
-modified: 20210717052511737
-tags: TableOfContents
+created: 20210718130458161
+modified: 20210718152755453
+tags: PKM
 title: 学习方法论
-tmap.id: c4bd75f9-a230-4c0a-ba49-2fc88b397d43
+tmap.id: 51186266-73b7-47d3-9dc8-9bc6ce810635
 type: text/vnd.tiddlywiki
 
-<div class="tc-table-of-contents">
-<<toc-selective-expandable  "学习方法论" >>
-</div>
+<$macrocall $name="locator-view" baseTitle=<<currentTiddler>> />

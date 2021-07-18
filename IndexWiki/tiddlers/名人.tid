@@ -1,11 +1,8 @@
 created: 20210717053017225
-modified: 20210717053135506
-tags: TableOfContents
+modified: 20210718152840545
+tags: Index
 title: 名人
 tmap.id: 7dc7ea7f-9495-4852-89e5-b9130af36a8a
 type: text/vnd.tiddlywiki
 
-
-<div class="tc-table-of-contents">
-<<toc-selective-expandable  "名人" "sort[title]">>
-</div>
+<$macrocall $name="locator-view" baseTitle=<<currentTiddler>> />

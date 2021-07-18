@@ -1,0 +1,8 @@
+created: 20210718143959251
+modified: 20210718152654106
+tags: Index TableOfContents
+title: @Inbox
+tmap.id: 156c5e12-6bc5-49ec-8336-c36527107df8
+type: text/vnd.tiddlywiki
+
+<$macrocall $name="locator-view" baseTitle=<<currentTiddler>> />

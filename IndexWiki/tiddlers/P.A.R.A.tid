@@ -1,10 +1,33 @@
 created: 20210717050922371
-modified: 20210717051053112
+modified: 20210718130739227
 tags: 笔记方法论 [[Tiago Forte]]
 title: P.A.R.A
 tmap.id: 6c05700c-b9bf-43f4-bc75-69423d1205e1
 type: text/vnd.tiddlywiki
 web: https://fortelabs.co/blog/para/
 
-定义网址: https://fortelabs.co/blog/para/
+!! PARA 笔记方法
 
+https://fortelabs.co/blog/para/
+
+https://www.youtube.com/watch?v=vrhBNGMJQwE
+
+
+!! 什么是 PARA
+
+PARA 全称是 `Project` `Area` `Resources` `Archive` 四个大类的首字母简写  
+这是一套整合时间任务管理、基于纯文本、适合不同软件迁移的笔记系统。
+
+!! PARA 如何进行管理
+
+具体可以查阅 `forte` 三篇公开的文章，非常详细的介绍了这套笔记系统的使用情景， 还有 Q&A
+
+https://fortelabs.co/blog/para/
+https://fortelabs.co/blog/p-a-r-a-ii-operations-manual/
+https://fortelabs.co/blog/p-a-r-a-iii-building-an-idea-generator/
+
+过去大多数人写笔记或者列清单都会非常笼统
+以我自己举例子，我要学习 Houdini 、 我要研究 SuperMemo 的使用方法、我要解决工作上的问题
+
+这些笼统的问题既有长线的任务，也有短期要完成的任务，任务之间的区隔和关联都相对混乱。
+因此 PARA 笔记方法要求我们

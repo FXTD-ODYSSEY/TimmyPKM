@@ -1,10 +1,8 @@
 created: 20210717051519771
-modified: 20210717052531048
-tags: 学习方法论
+modified: 20210718152751727
+tags: PKM
 title: 时间管理
 tmap.id: ce2d2717-4c1a-4a9a-8df4-7593749a74a0
 type: text/vnd.tiddlywiki
 
-<div class="tc-table-of-contents">
-<<toc-selective-expandable  "时间管理" >>
-</div>
+<$macrocall $name="locator-view" baseTitle=<<currentTiddler>> />
