@@ -1,8 +1,9 @@
 created: 20210709124941262
-modified: 20210709130101984
-tags: TableOfContents
+modified: 20210717172856410
+tags: tiddlywiki
 title: Revealjs 测试
 tmap.id: c26b356d-02ae-457c-8d22-240ab7720039
+type: text/vnd.tiddlywiki
 
 <$presentation>
 <$slide>Welcome to ''Reveal.js''</$slide>

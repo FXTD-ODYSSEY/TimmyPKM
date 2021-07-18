@@ -1,8 +1,12 @@
 created: 20210713015405594
-modified: 20210713051352254
+modified: 20210717172807116
 stream-list: 
 stream-type: default
-tags: Index
+tags: Index TableOfContents
 title: tiddlywiki
 tmap.id: 55967161-9a31-4cb2-b05f-0e72ba265f90
 type: text/vnd.tiddlywiki
+
+<div class="tc-table-of-contents">
+<<toc-selective-expandable  "tiddlywiki" "sort[title]">>
+</div>

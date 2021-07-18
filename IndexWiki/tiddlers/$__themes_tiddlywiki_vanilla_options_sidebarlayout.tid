@@ -1,6 +1,6 @@
 created: 20210715040023134
-modified: 20210717053631433
+modified: 20210717174522507
 title: $:/themes/tiddlywiki/vanilla/options/sidebarlayout
 type: text/vnd.tiddlywiki
 
-fixed-fluid
+fluid-fixed
