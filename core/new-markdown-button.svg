@@ -1,4 +1,4 @@
-<svg class="tc-image-new-markdown-button tc-image-button" viewBox="0 0 128 128" width="22pt" height="22pt">
+<svg xmlns="http://www.w3.org/2000/svg"  class="tc-image-new-markdown-button tc-image-button" viewBox="0 0 128 128" width="22pt" height="22pt">
     <g fill-rule="evenodd">
         <rect x="80" y="96" width="48" height="16" rx="8"></rect>
         <rect x="96" y="80" width="16" height="48" rx="8"></rect>
